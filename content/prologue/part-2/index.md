@@ -17,12 +17,8 @@ Si vous avez besoin de 30'000€ par an pour vivre, alors ce montant pourra êtr
 Bien peu de personnes ont pleinement conscience que toute somme d'argent correctement investie peut être convertie en un revenu permanent. Vous pouvez faire l’analogie avec les rentes viagères, mais dans notre cas, nous restons propriétaire de notre capital.
 
 Épargne investie	Retrait annuel	Revenu annuel à vie	Équivalent mensuel
-10'000 €	6 %	600 €	50 €
-50'000 €	6 %	3'000 €	250 €
-100'000 €	6 %	6'000 €	500 €
-250'000 €	6 %	15'000 €	1'250 €
-500'000 €	6 %	30'000 €	2'500 €
-1'000'000 €	6 %	60'000 €	5'000 €
+
+![Relation épargne et revenu](table-epargne-revenu.png)
 
 Bien sûr, pour la plupart des gens, y compris moi-même, cela nécessite d'épargner une part substantielle de ses revenus et de les investir pour les faire fructifier, suffisamment longtemps.
 

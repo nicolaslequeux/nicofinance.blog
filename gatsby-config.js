@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `preambule`,
-        path: `${__dirname}/content/prembule`,
+        path: `${__dirname}/content/prologue`,
       },
     },
 

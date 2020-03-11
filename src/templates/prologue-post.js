@@ -36,7 +36,11 @@ export default ({ data, pageContext }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev" style={{textDecoration: "none"}} className="text-center">
+              <Link
+                to={previous.fields.slug}
+                rel="prev"
+                style={{textDecoration: "none"}}
+                className="text-center text-dark">
                 ← {previous.frontmatter.title}
               </Link>
             )}
@@ -44,7 +48,11 @@ export default ({ data, pageContext }) => {
 
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next" style={{textDecoration: "none"}} className="text-center">
+              <Link
+                to={next.fields.slug}
+                rel="next"
+                style={{textDecoration: "none"}}
+                className="text-center text-dark">
                 {next.frontmatter.title} →
               </Link>
             )}

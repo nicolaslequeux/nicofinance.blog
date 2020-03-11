@@ -3,8 +3,6 @@ const path = require(`path`)
 // Je require la function "createFilePath" du module "garsby-source-filesystem"
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-
-
 // CREATE 'SLUG' FIELD TO THE NODE OBJECT
 // --------------------------------------
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -26,9 +24,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 }
 
-
-
-// CREATE PAGE FOR POST
+// CREATE PAGES FOR MARKDOWNS
 // --------------------------------------
 exports.createPages = async ({ graphql, actions }) => {
 
@@ -56,19 +52,19 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   // Je stock la "array" résultat dans une variable
-  const chapitres = result.data.allMarkdownRemark.edges
+  const mds = result.data.allMarkdownRemark.edges
 
-  // Create chapitre page with previous, next variable populated
-  chapitres.forEach((chapitre, index) => {
+  // Create page with previous, next variable populated
+  mds.forEach((md, index) => {
 
-    const previous = index === chapitres.length - 1 ? null : chapitres[index +1].node
-    const next = index === 0 ? null : chapitres[index - 1].node
+    const previous = index === mds.length - 1 ? null : mds[index +1].node
+    const next = index === 0 ? null : mds[index - 1].node
 
     createPage({
-      path: chapitre.node.fields.slug,
-      component: path.resolve(`./src/templates/chapitre.js`),
+      path: md.node.fields.slug,
+      component: path.resolve(`./src/templates/prologue-post.js`),
       context: {
-        slug: chapitre.node.fields.slug,
+        slug: md.node.fields.slug,
         previous,
         next
       },
