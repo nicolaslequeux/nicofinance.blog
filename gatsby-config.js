@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `preambule`,
+        name: `prologue`,
         path: `${__dirname}/content/prologue`,
       },
     },
@@ -37,7 +37,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 768,
+              maxWidth: 600,
             },
           },
         ],
@@ -47,23 +47,25 @@ module.exports = {
     // Add a custom 'sourceName' field to Remark nodes to filter them easily ('name' field in gatsby-source-filesystem)
     `gatsby-remark-source-name`,
 
+    // Replace all local links that have not been created in React using gatsby-link
+    `gatsby-plugin-catch-links`,
 
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-react-bootstrap`,
-        short_name: `react-bootstrap`,
-        start_url: `/`,
-        background_color: `#20232a`,
-        theme_color: `#20232a`,
-        display: `minimal-ui`,
-      },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `gatsby-starter-react-bootstrap`,
+    //     short_name: `react-bootstrap`,
+    //     start_url: `/`,
+    //     background_color: `#20232a`,
+    //     theme_color: `#20232a`,
+    //     display: `minimal-ui`,
+    //   },
     
-    },
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

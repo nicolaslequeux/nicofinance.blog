@@ -12,8 +12,7 @@ export default () => (
 
       <Nav className="mx-auto">
         <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/blog">Blog</Nav.Link>
-        <Nav.Link href="/preambule">Préambule</Nav.Link>
+        <Nav.Link href="/prologue">Prologue</Nav.Link>
         <Nav.Link href="/page-2">Page-2</Nav.Link>
         <Nav.Link href="/about">A propos</Nav.Link>
       </Nav>

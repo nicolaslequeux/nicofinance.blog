@@ -17,7 +17,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value: `/prologue${slug}`,
     })
   
   }
@@ -33,7 +33,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // get md files whose post page will be created
   const result = await graphql(`
     {
-      allMarkdownRemark(sort: {order: DESC, fields: fields___slug}) {
+      allMarkdownRemark(sort: {fields: fields___slug, order: DESC}) {
         totalCount
         edges {
           node {
@@ -62,7 +62,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: md.node.fields.slug,
-      component: path.resolve(`./src/templates/prologue-post.js`),
+      component: path.resolve(`./src/templates/prologue-part.js`),
       context: {
         slug: md.node.fields.slug,
         previous,
