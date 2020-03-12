@@ -5,7 +5,7 @@ import Navbar from "./navBar"
 export default ({ children }) => (
   <>
     <Navbar />
-    <Container style={{ maxWidth: "800px" }} className="mt-5">
+    <Container style={{ maxWidth: "800px", marginBottom: "50px" }} className="mt-5">
       <main>{children}</main>
     </Container>
   </>

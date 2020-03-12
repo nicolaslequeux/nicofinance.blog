@@ -1,0 +1,4 @@
+
+
+Most mobile phones device-width of 480px
+iPhone 4 (with device-width: 320px)

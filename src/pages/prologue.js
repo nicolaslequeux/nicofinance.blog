@@ -13,32 +13,28 @@ const ListParts = ({ data }) => {
   let count = 0;
 
   return (
-
     <Layout>
-
       <SEO title="Prologue" />
-
-      <h2>Liste des chapitres</h2>
-
-      { parts.map((part) => {
-          count++;
-          return (
-            <div key={part.node.id} className="py-1">
-              <Link
-                to={part.node.fields.slug}
-                className="text-dark"
-                >
-                  {count} - {part.node.frontmatter.title}
-              </Link>
-            </div>
-          )
-        })
-      }
-
+      <h2 className="pl-3">Liste des chapitres</h2>
       <hr></hr>
-
+      <div style={{ width: "320px", margin: "auto"}}>
+        { parts.map((part) => {
+            count++;
+            return (
+              <div key={part.node.id} className="py-1">
+                <Link
+                  to={part.node.fields.slug}
+                  className="text-dark"
+                  >
+                    {count} - {part.node.frontmatter.title}
+                </Link>
+              </div>
+            )
+          })
+        }
+      </div>
+      <hr></hr>
       <Link to="/">Go back to the homepage</Link>
-
     </Layout>
 
   )
