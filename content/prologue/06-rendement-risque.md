@@ -2,14 +2,15 @@
 title: Le rendement et le risque
 ---
 
-Nous savons, ou du moins nous nous doutons qu'il ne peut y pas avoir de rendement sans risque associé, sauf à croire au Père Noël et confier son argent à un Bernie Madoff qui promettait du rendement sans risque . 
+Nous savons, ou du moins nous nous doutons qu'il ne peut y pas avoir de rendement sans risque associé, sauf à croire au Père Noël et confier son argent à un Bernie Madoff qui promettait du rendement sans risque. 
 
 Voyons ce que sont les couples rendements-risques pour les actions, obligations, l’or et le cash sur le marché américain.
 
-Ce graphique fait apparaître la performance moyenne de ces 4 actifs depuis 40 ans, avec leur meilleure année et leur "drawdown ".
+Ce graphique fait apparaître la performance moyenne de ces 4 actifs depuis 40 ans, avec leur meilleure année et leur "drawdown".
+<br></br>
 
- 
-
+![Performance annuelle des actifs](./images/perf-annuelle-actifs.png)
+<br></br>
 Nous pouvons voir des disparités importantes. L'or a l'amplitude la plus élevée, sa meilleure année à est +126% et son drawdown s'établie à -62%.
 
 J'utilise le concept anglo-saxon de "drawdown" pour quantifier la baisse la plus élevée rencontrée dans le passé. Le drawdown mesure la perte maximale potentielle qu'il a fallu endurer entre 2 points hauts successifs du marché. Dans le cas de l'or, bien que la plus mauvaise année se termine à -33%, l'or a en fait enchainé plusieurs années successives de pertes et en mettant bout à bout ces années successives de pertes, l'or a perdu jusqu'à -61,78% avant de repartir à la hausse et faire un nouveau sommet des années plus tard.

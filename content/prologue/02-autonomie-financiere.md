@@ -16,8 +16,8 @@ Bien peu de personnes ont pleinement conscience que toute somme d'argent correct
 
 Épargne investie	Retrait annuel	Revenu annuel à vie	Équivalent mensuel
 
-![Relation épargne et revenu](table-epargne-revenu.png)
-
+![Relation épargne et revenu](./images/sim-capital-revenu.png)
+<br></br>
 Bien sûr, pour la plupart des gens, y compris moi-même, cela nécessite d'épargner une part substantielle de ses revenus et de les investir pour les faire fructifier, suffisamment longtemps.
 
 Si vous débutez votre effort d'épargne assez tôt, vous allez alors bénéficier de ce que l'on appelle les intérêts composés. Et ce qui pouvait paraître à première vue un objectif d'épargne difficilement atteignable va finalement pouvoir se réaliser avec assez peu d’effort.

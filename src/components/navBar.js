@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Navbar, Nav } from "react-bootstrap"
+import { Nav, Navbar, NavDropdown } from "react-bootstrap"
 
 export default () => (
 
@@ -13,8 +13,15 @@ export default () => (
       <Nav className="mx-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/prologue">Prologue</Nav.Link>
+        <NavDropdown title="Stratégies" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#">PP</NavDropdown.Item>
+        <NavDropdown.Item href="#">GEM/GBM</NavDropdown.Item>
+        <NavDropdown.Item href="#">VAA</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#">Autres</NavDropdown.Item>
+      </NavDropdown>
         <Nav.Link href="/page-2">Page-2</Nav.Link>
-        <Nav.Link href="/about">A propos</Nav.Link>
+        <Nav.Link href="/qui-suis-je">Qui suis-je?</Nav.Link>
       </Nav>
     </Navbar.Collapse>
 

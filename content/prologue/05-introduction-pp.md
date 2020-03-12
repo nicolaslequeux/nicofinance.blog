@@ -22,13 +22,13 @@ La stratégie repose sur l’exploitation des cycles économiques qui sont au no
 
 Chacun de ces cycles économies peut se succéder dans n’importe quel ordre et pour des durées variables.
 
-L'économie est soit en expansion, nous connaissons la prospérité, soit en contraction, nous sommes alors en période de récession. 
+**L'économie est soit en expansion, nous connaissons la prospérité, soit en contraction, nous sommes alors en période de récession.**
 
 Relativement à cette expansion-contraction de l'économie, la quantité de monnaie en circulation va elle aussi évoluer.
 
-Si la quantité de monnaie croit plus rapidement que l'expansion de l'économie, nous aurons de l'inflation (trop de monnaie dans le système). A l'inverse si la quantité de monnaie croit plus lentement que l'expansion de l'économie, alors nous aurons de la déflation (manque de monnaie dans le système).
+**Si la quantité de monnaie croit plus rapidement que l'expansion de l'économie, nous aurons de l'inflation (trop de monnaie dans le système). A l'inverse si la quantité de monnaie croit plus lentement que l'expansion de l'économie, alors nous aurons de la déflation (manque de monnaie dans le système).**
 
-Le phénomène est le même dans une économie en récession, si la quantité de monnaie diminue moins rapidement que l'économie ne se contracte, nous aurons de l'inflation, et si la quantité de monnaie diminue plus rapidement que l'économie ne décroit, nous aurons alors la déflation.
+**Le phénomène est le même dans une économie en récession, si la quantité de monnaie diminue moins rapidement que l'économie ne se contracte, nous aurons de l'inflation, et si la quantité de monnaie diminue plus rapidement que l'économie ne décroit, nous aurons alors la déflation.**
 
 La quantité de monnaie en circulation doit être adaptée au niveau de croissance ou décroissance de l'économie. C'est normalement le rôle des banques centrales d'ajuster ces niveaux de monnaie.
 
@@ -49,8 +49,10 @@ Ainsi, Harry Brown recommande de détenir chacun de ces 4 actifs en permanence, 
 - La poche obligation est investie en obligations à long terme de l'État des USA
 - L'or est détenu au travers d'un fond investi en or ou partiellement en or physique
 - Le cash est investi sur des fonds monétaires sans risques
+<br></br>
 
- 
+![Portefeuille Permanent Répartition des actifs](./images/pp-repartition-actifs.png)
+<br></br>
 
 La beauté de cette allocation est qu'elle n'essaie pas de prédire l'évolution future de l'économie pour savoir sur quel actif investir. Il s'agit simplement de maintenir une allocation équilibrée entre ces 4 actifs. Ainsi nous aurons toujours au moins un actif approprié pour bien performer eu égard à l'état dans lequel l'économie se situe.
 
@@ -61,17 +63,20 @@ Chaque fin d'année, il suffira de rééquilibrer les 4 poches, c'est-à-dire ve
 Comment une épargne ainsi investie s’est-elle comportée dans le passé ?
 
 Voici la performance historique de la stratégie du Portefeuille Permanent de Harry Browne depuis 1978 pour le marché US :
+<br></br>
 
+![Portefeuille Permanent performance totale](./images/pp-perf-totale.png)
+<br></br>
+
+Une somme unique investie de 10'000€ s'est transformée fin 2019 en un capital brut de 281'182€.
+
+Cela représente un rendement annualisé moyen de 8,27% avec plus de 80% des années qui ont eu un rendement positif et la plus mauvaise année n'était qu'une faible perte de -5,20%.
+
+En déduisant l'inflation le rendement annuel moyen est de 4,67%, soient 40 ans à progresser à quasiment +5% par an au-dessus de l'inflation, diantre !
+<br></br>
  
-
-Une somme unique investie de 10'000€ s'est transformée fin 2019 en un capital brut de 288'347€.
-
-Cela représente un rendement annualisé moyen de 8,56% avec plus de 80% des années qui ont eu un rendement positif et la plus mauvaise année n'était qu'une faible perte de -5,20%.
-
-En déduisant l'inflation le rendement annuel moyen est de 5,09%, soient 40 ans à progresser de +5% par an au-dessus de l'inflation, diantre !
-
- 
-
+![Portefeuille Permanent performance annuelle](./images/pp-perf-annuelle.png)
+<br></br>
 Comment une stratégie aussi simple peut-elle performer aussi bien ? Une stratégie aussi efficace devrait être connue de tous ? Commençons par comprendre pourquoi la stratégie fonctionne ?
 
 Pour le comprendre, nous allons aborder les notions de risque, rendement et volatilité. La stratégie du Portefeuille Permanent de Harry Browne est composée de 4 actifs distincts qui peuvent être considérées comme les briques élémentaires de la finance, le marché des actions, des obligations, l'or et le cash. Chacune de ces classes d'actif à des caractéristiques de rendement et de risque qui lui est propre.

@@ -4,8 +4,6 @@ title: Introduction
 
 L'inculture économique en France est telle que la plupart des gens n'ont absolument pas conscience de l'intérêt à se constituer un patrimoine financier et des avantages qui vont en découler.
 
-[link](../../titi.txt)
-
 La grande majorité de la population a pour unique source de revenu un salaire mensuel et n'envisage l'augmentation de son niveau de vie qu'au travers de l'augmentation de ce seul mode de rémunération. Nous allons structurer notre vie privée et professionnelle en fonction des opportunités d’augmentation de ce salaire. Les autres sources de revenus possibles seront généralement négligées, soit par méconnaissance soit parce que notre relation à l'argent est biaisée.
 
 La vie va alors se dérouler au rythme métro-boulot-dodo, les courses le weekend, quelques semaines de vacances épuisantes l'été dans des endroits bondés de monde, et l'espoir de pouvoir profiter un peu de la vie une fois en retraite. L'essentiel du patrimoine accumulé au cours d'une vie sera le plus souvent un peu d'immobilier qui ne rapporte rien et des liquidités sur des livrets bancaires ou assurances-vie.

@@ -24,22 +24,20 @@ C'est un peu comme rouler une boule de neige, la boule va progressivement gagner
 J’utilise le mot intérêt au sens large, pour définir tous les tous flux financiers qui participent à faire grossir votre épargne : les intérêts d‘un livret bancaire, le coupon d’une obligation, la plus-value lors de la revente d’une action ou le versement d’un dividende.
 
 Pour bien saisir l'importance de la composition des intérêts, considérons deux exemples pratiques.
+<br></br>
 
 **Exemple 1 - Combien épargner pour accumuler 500'000 puis 1 million d'euros ?**
 
 Considérons que vous épargniez 500€ par mois, soient 6’000€ par an.
+<br></br>
 
+![Simulation graphique épargne](./images/sim-6k-graph.png)
+<br></br>
 *L'épargne est investie sur les marchés financiers avec un rendement annualisé moyen de 7,5% par an, nous ne considérons pas la fiscalité et l'inflation, nous raisonnons donc en euros constants pour simplifier.*
+<br></br>
 
-
-Durée d'épargne	Montant épargné	Intérêts reçus	Épargne totale accumulée	% des intérêts accumulés
-5 ans	30'000€	7'464€	37'464€	20%
-10 ans	60'000€	31'249€	91'249	34%
-20 ans	120'000€	159'315€	279'315	57%
-27 ans	162 000€	358 079€	520 076€	69%
-35 ans	210 000€	784 923€	994 923€	79%
-40 ans	240'000€	1'225'805€	1'465'805€	84%
-
+![Simulation tableau épargne](./images/sim-6k-table.png)
+<br></br>
 Au bout de cinq ans, les intérêts accumulés s'élèvent à 7'464€.
 
 Au bout de dix ans, c'est-à-dire qu'une même période de 5 ans supplémentaire s'est écoulée, les intérêts s’élèvent désormais à 31’249€, soient un supplément de 23’785€. Comparativement à la période initiale de 5 ans c’est 3 fois plus d’intérêts accumulés pour la même durée de détention.
@@ -53,6 +51,7 @@ Il a fallu 27 ans pour atteindre les 500'000€ et le capital est déjà doublé
 Il suffit d'initier le mouvement, puis laisser s'accumuler les intérêts suffisamment longtemps. La contribution des intérêts à l'accumulation de votre épargne est tellement importante qu'une une fois le cycle vertueux initié pour pourriez même considérer supprimer votre contribution annuelle et laisser votre épargne fructifier d'elle-même.
 
 Simulons ce cas de figure dans notre second exemple.
+<br></br>
 
 **Exemple 2 - Je n'épargne pas longtemps, mais je démarre tôt**
 
@@ -64,9 +63,10 @@ Considérons maintenant 3 personnes qui investissent chacune 6'000€ par an sur
 Pareillement au cas précédent, l'épargne est investie sur les marchés financiers avec un rendement annualisé moyen de 7,5% par an.
 
 A 65 ans, nos trois acolytes prennent leur retraite, voici l'épargne qu'ils auront chacun accumulée :
+<br></br>
 
- 
-
+![Incidence du temps sur l'épragne](./images/sim-scenaris.png)
+<br></br>
 La différence est impressionnante, bien que Fougasse n'ai épargné que 60'000€, soient 10 ans d'épargne, de l’âge de 25 ans à 35 ans, il aura accumulé le capital le plus important car les intérêts composés auront fonctionné plus longtemps, pendant 40 ans (25-65 ans).
 
 En comparaison, Gerbert qui aura fourni un effort d'épargne trois fois plus important de 180'000€ puisque qu'il aura épargné pendant 30 ans, de 35 ans à 65 ans, ne pourra jamais rattraper Fougasse parti le premier.

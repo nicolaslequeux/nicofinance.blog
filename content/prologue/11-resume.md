@@ -39,5 +39,7 @@ Reprenons tout ce que nous avons vu :
 <br></br>
 
 Waouh quel chemin parcouru en seulement une petite heure de lecture !
+<br></br>
 
-Si vous souhaitez en savoir plus, ou même implémenter le [Portefeuille Permanent de Harry Browne](/permanent-portfolio), je vous invite à visiter cette page.
+Pour en savoir plus ou implémenter le [Portefeuille Permanent de Harry Browne](/portefeuille-permanent).
+
