@@ -1,4 +1,5 @@
 import React from "react"
+import { Container } from "react-bootstrap"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 
@@ -8,55 +9,62 @@ export default ({ data, pageContext }) => {
   const { previous, next } = pageContext
 
   return (
+
     <Layout id="top">
-      <div>
-        <h1>{chapitre.frontmatter.title}</h1>
-        <hr></hr>
-          <div dangerouslySetInnerHTML={{ __html: chapitre.html }} className="text-justify" />
-          <div className="py-2"></div>
-        <hr></hr>
-      </div>
-      <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
+
+      <Container style={{ maxWidth: "700px", margin: "auto" }}>
+
+        <div className="py-4 text-center">
+          <h2>{chapitre.frontmatter.title}</h2>
+          <hr></hr>
+            <div dangerouslySetInnerHTML={{ __html: chapitre.html }} className="text-justify" />
+          <hr></hr>
+        </div>
+
+        <ul
+            style={{
+              display: `flex`,
+              flexWrap: `wrap`,
+              justifyContent: `space-between`,
+              listStyle: `none`,
+              padding: 0,
+            }}
+          >
+            <li>
+              {previous && (
+                <Link
+                  to={previous.fields.slug}
+                  rel="prev"
+                  style={{textDecoration: "none"}}
+                  className="text-center text-dark">
+                  ← {previous.frontmatter.title}
+                </Link>
+              )}
+            </li>
+            <li>
               <Link
-                to={previous.fields.slug}
-                rel="prev"
+                to="/prologue"
+                rel="prologue"
                 style={{textDecoration: "none"}}
                 className="text-center text-dark">
-                ← {previous.frontmatter.title}
+                Retour à la liste
               </Link>
-            )}
-          </li>
-          <li>
-            <Link
-              to="/prologue"
-              rel="prologue"
-              style={{textDecoration: "none"}}
-              className="text-center text-dark">
-              Retour à la liste
-            </Link>
-          </li>
-          <li>
-            {next && (
-              <Link
-                to={next.fields.slug}
-                rel="next"
-                style={{textDecoration: "none"}}
-                className="text-center text-dark">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
+            </li>
+            <li>
+              {next && (
+                <Link
+                  to={next.fields.slug}
+                  rel="next"
+                  style={{textDecoration: "none"}}
+                  className="text-center text-dark">
+                  {next.frontmatter.title} →
+                </Link>
+              )}
+            </li>
+          </ul>
+
+        </Container>
+
     </Layout>
   )
 }

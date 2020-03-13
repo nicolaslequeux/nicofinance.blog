@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
+import { Container } from "react-bootstrap"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -15,26 +17,32 @@ const ListParts = ({ data }) => {
   return (
     <Layout>
       <SEO title="Prologue" />
-      <h2 className="pl-3">Liste des chapitres</h2>
-      <hr></hr>
-      <div style={{ width: "320px", margin: "auto"}}>
-        { parts.map((part) => {
-            count++;
-            return (
-              <div key={part.node.id} className="py-1">
-                <Link
-                  to={part.node.fields.slug}
-                  className="text-dark"
-                  >
-                    {count} - {part.node.frontmatter.title}
-                </Link>
-              </div>
-            )
-          })
-        }
-      </div>
-      <hr></hr>
-      <Link to="/">Go back to the homepage</Link>
+
+      <Container style={{ maxWidth: "700px", margin: "auto" }}>
+
+        <h2 className="text-center p-4">Liste des chapitres</h2>
+
+        {/* <h2 className="pl-3">Liste des chapitres</h2> */}
+
+        <div style={{ width: "320px", margin: "auto"}}>
+          { parts.map((part) => {
+              count++;
+              return (
+                <div key={part.node.id} className="py-1">
+                  <Link
+                    to={part.node.fields.slug}
+                    className="text-dark"
+                    >
+                      {count} - {part.node.frontmatter.title}
+                  </Link>
+                </div>
+              )
+            })
+          }
+        </div>
+
+      </Container>
+
     </Layout>
 
   )

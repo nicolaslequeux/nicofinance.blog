@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Nicolas Lequeux <nicofinanceblog@gmail.com>",
   "dependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
     "bootstrap": "^4.3.1",
     "gatsby": "^2.3.34",
     "gatsby-image": "^2.0.41",
@@ -14,6 +15,7 @@
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.4.9",
+    "gatsby-plugin-styled-components": "^3.1.20",
     "gatsby-remark-images": "^3.1.47",
     "gatsby-remark-source-name": "^1.0.0",
     "gatsby-source-filesystem": "^2.0.33",
@@ -25,7 +27,8 @@
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
-    "react-icons": "^3.6.1"
+    "react-icons": "^3.6.1",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
