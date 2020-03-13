@@ -18,8 +18,8 @@ export default () => (
     <img
       src={alias}
       alt="Alias Nicolas"
-      width={175}
-      heigh={175}
+      width={150}
+      heigh={150}
       className="img-thumbnail mx-auto d-block"
     />
 
@@ -32,6 +32,8 @@ export default () => (
     <p className="text-justify">Cette façon de travailler apporte une tranquillité d'esprit, car la feuille de route est tracée et je n'ai plus qu'à suivre un plan définit à l'avance. Enfin le plus important, cette façon de travailler me procure une grande liberté. Mes opérations ne me demandent pas plus d'une demi-journée de travail par mois, ce me laisse un peu de temps pour vous faire partager mon expérience.</p>
 
     <p className="text-justify">Puisse mon expérience vous apporter un peu plus de liberté,</p>
+
+    <p>Nicolas</p>
 
   </Layout>
 
