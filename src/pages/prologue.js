@@ -20,9 +20,9 @@ const ListParts = ({ data }) => {
 
       <Container style={{ maxWidth: "700px", margin: "auto" }}>
 
-        <h2 className="text-center p-4">Liste des chapitres</h2>
+        <h2 className="text-center pt-4 pb-3">Liste des chapitres</h2>
 
-        {/* <h2 className="pl-3">Liste des chapitres</h2> */}
+        <p className="text-justify">La lecture de ce petit exposé, vous donnera en moins d'une heure, les éléments nécessaires à la compréhension des articles de ce blog.</p>
 
         <div style={{ width: "320px", margin: "auto"}}>
           { parts.map((part) => {

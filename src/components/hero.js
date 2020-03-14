@@ -6,11 +6,14 @@ export default () => (
 
   <Jumbotron>
 
-    <h2>Conseils pour générer des revenus financiers</h2>
+    {/* <h2>Conseils pour générer des revenus financiers</h2> */}
+    <h2>nicofinance.blog</h2>
 
-    <p className="text-justify font-weight-light">J'ai créé ce blog pour partager mes connaissances et mon expérience personnelle, pour qui voudrait devenir financièrement autonome. La condition du succès repose sur la constitution d'une épargne financière, qui va permettre au fils du temps, de générer suffisamment d'intérêts pour couvrir les dépenses.</p>
+    {/* <p className="text-justify font-weight-light">J'ai créé ce blog pour partager mes connaissances et mon expérience personnelle, pour qui voudrait devenir financièrement autonome. La condition du succès repose sur la constitution d'une épargne financière, qui va permettre au fils du temps, de générer suffisamment d'intérêts pour couvrir les dépenses.</p> */}
 
-    <Link to="/prologue"><Button variant="outline-primary">Introduction</Button></Link>
+    <p className="text-justify font-weight-light">Partage d'expériences dans la gestion d'une portefeuille financier, en vue de générer des revenus complémentaires ou devenir fiancièrement autonome.</p>
+
+    <Link to="/prologue"><Button variant="warning">Introduction pour les néophites</Button></Link>
 
   </Jumbotron>
 

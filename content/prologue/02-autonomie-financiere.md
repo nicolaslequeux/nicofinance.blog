@@ -8,13 +8,11 @@ Si vous vous êtes constitué une épargne et ne dépensez pas plus que ce que v
 
 Ce niveau de 4% a été initialement défini par William P. Bengen  lors d'une étude publiée en 1994 dans laquelle il a calculé et défini la notion de SWR (Safe Withdrawal Rate) ou Taux de Retrait Sécurisé en français. Ce SWR est basé sur la performance historique du marché des actions aux USA depuis 1926 et les niveaux d’inflation correspondant. Il a calculé qu'une épargne investie majoritairement sur les marchés actions avait pu traverser tous les chocs financiers passés si l'on ne prélevait pas plus de 4% de cette épargne. Le concept de SWR a été par la suite repris et approfondi dans de nombreuses recherches, dont la plus connue, la Trinity Study  de 1998.
 
-L'objectif est donc d'accumuler une épargne, jusqu'à ce que les revenus passifs générés par cette épargne soient suffisants pour couvrir les dépenses annuelles. Lorsque cette autonomie financière est atteinte, le travail rémunéré devient facultatif et vous voilà libre de réaliser ce qui vous plaît.
+L'objectif est donc d'accumuler une épargne, jusqu'à ce que les revenus passifs générés par cette épargne soient suffisants pour couvrir les dépenses annuelles. Lorsque cette autonomie financière est atteinte, le travail rémunéré devient facultatif et vous voilà libre de vivre comme vous l'entendez.
 
 Si vous avez besoin de 30'000€ par an pour vivre, alors ce montant pourra être généré indéfiniment à partir d'une épargne de 750'000 euros (4% de 750k = 30k). En réalité ce niveau de 4% est extrêmement prudent, j’estime qu’il est tout à fait possible de retirer jusqu'à 6% par an avec des stratégies de gestion bien adaptées Auquel cas, l'épargne nécessaire pour être financièrement autonome si vous souhaitez vivre avec 30'000€ par an tombe à 500'000€.
 
 Bien peu de personnes ont pleinement conscience que toute somme d'argent correctement investie peut être convertie en un revenu permanent. Vous pouvez faire l’analogie avec les rentes viagères, mais dans notre cas, nous restons propriétaire de notre capital.
-
-Épargne investie	Retrait annuel	Revenu annuel à vie	Équivalent mensuel
 
 ![Relation épargne et revenu](./images/sim-capital-revenu.png)
 <br></br>

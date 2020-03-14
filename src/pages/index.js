@@ -1,7 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 import Hero from "../components/hero"
-import { Container, Row, Col, Image, Button, Card } from "react-bootstrap"
+import { Container, Row, Col, Button, Card } from "react-bootstrap"
 import { FaSignal } from "react-icons/fa"
 
 import Layout from "../components/layout"
@@ -28,7 +27,7 @@ const IndexPage = () => (
                 <Card.Text>
                   Permanent Portfolio
                 </Card.Text>
-                <a href="https://nicolaslequeux.shinyapps.io/nlx-pp-input/" target="_blank">
+                <a href="https://nicolaslequeux.shinyapps.io/nlx-pp-input/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-warning">Simuler</Button>
                 </a>
               </Card.Body>
@@ -45,7 +44,7 @@ const IndexPage = () => (
                 <Card.Text>
                   Global Balanced Momentum
                 </Card.Text>
-                <a href="https://nicolaslequeux.shinyapps.io/nlx-gbm-input/" target="_blank">
+                <a href="https://nicolaslequeux.shinyapps.io/nlx-gbm-input/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-warning">Simuler</Button>
                 </a>
               </Card.Body>
@@ -62,7 +61,7 @@ const IndexPage = () => (
                 <Card.Text>
                   Vigilant Asset Allocation
                 </Card.Text>
-                <a href="https://nicolaslequeux.shinyapps.io/nlx-vaa-input/" target="_blank">
+                <a href="https://nicolaslequeux.shinyapps.io/nlx-vaa-input/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-warning">Simuler</Button>
                 </a>
               </Card.Body>
