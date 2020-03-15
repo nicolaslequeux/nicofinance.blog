@@ -16,12 +16,18 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `prologue`,
         path: `${__dirname}/content/prologue`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/content/blog`,
       },
     },
 

@@ -8,9 +8,12 @@ import SEO from "../components/seo"
 
 const ListParts = ({ data }) => {
 
-  const parts = data.allMarkdownRemark.edges.filter(
-    name => name.node.fields.sourceName === 'prologue'
-  );
+  // const parts = data.allMarkdownRemark.edges.filter(
+  //   name => name.node.fields.sourceName === 'prologue'
+  // );
+  // Je fais le filtre dans la graphql query avec le champs sourceName
+
+  const parts = data.allMarkdownRemark.edges
 
   let count = 0;
 
@@ -50,22 +53,24 @@ const ListParts = ({ data }) => {
 
 export const queryAll = graphql`
   query {
-    allMarkdownRemark(sort: {fields: fields___slug, order: ASC}) {
-      totalCount
-      edges {
-        node {
-          id
-          fields {
-            slug
-            sourceName
+    allMarkdownRemark(
+      sort: {fields: fields___slug, order: ASC},
+      filter: {fields: {sourceName: {eq: "prologue"}}}) {
+        totalCount
+        edges {
+          node {
+            id
+            fields {
+              slug
+              sourceName
+            }
+            frontmatter {
+              title
+            }
+            excerpt
+            timeToRead
           }
-          frontmatter {
-            title
-          }
-          excerpt
-          timeToRead
         }
-      }
     }
   }
 `

@@ -11,7 +11,7 @@ export default () => (
 
     {/* <p className="text-justify font-weight-light">J'ai créé ce blog pour partager mes connaissances et mon expérience personnelle, pour qui voudrait devenir financièrement autonome. La condition du succès repose sur la constitution d'une épargne financière, qui va permettre au fils du temps, de générer suffisamment d'intérêts pour couvrir les dépenses.</p> */}
 
-    <p className="text-justify font-weight-light">Partage d'expériences dans la gestion d'une portefeuille financier, en vue de générer des revenus complémentaires ou devenir fiancièrement autonome.</p>
+    <p className="text-justify font-weight-light">Partage d'expérience dans la gestion d'une portefeuille financier, pour qui souhaiterait générer des revenus complémentaires ou devenir fiancièrement autonome.</p>
 
     <Link to="/prologue"><Button variant="warning">Introduction pour les néophites</Button></Link>
 
