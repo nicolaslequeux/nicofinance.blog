@@ -8,8 +8,9 @@ export default () => (
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mx-auto">
         <Nav.Link href="/"><FaHome size={24}/></Nav.Link>
-        <Nav.Link href="/prologue">Intro</Nav.Link>
+        <Nav.Link href="/prologue">Prologue</Nav.Link>
         <Nav.Link href="/blog">Blog</Nav.Link>
+        <Nav.Link href="/pp-browne">PP</Nav.Link>        
         <Nav.Link href="/liens">Liens</Nav.Link>
         <Nav.Link href="/qui-suis-je">Qui suis-je?</Nav.Link>
       </Nav>

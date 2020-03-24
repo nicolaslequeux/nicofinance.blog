@@ -41,5 +41,5 @@ Reprenons tout ce que nous avons vu :
 Waouh quel chemin parcouru en seulement une petite heure de lecture !
 <br></br>
 
-Pour en savoir plus ou implémenter le [Portefeuille Permanent de Harry Browne](/portefeuille-permanent).
+Pour en savoir plus sur l'implémentation du [Portefeuille Permanent de Harry Browne](/pp-browne).
 

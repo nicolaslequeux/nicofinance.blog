@@ -35,9 +35,14 @@ const IndexPage = ({ data }) => {
                     <Card.Text>
                       Permanent Portfolio
                     </Card.Text>
-                    <a href="https://nicolaslequeux.shinyapps.io/nlx-pp-input/" target="_blank" rel="noopener noreferrer">
-                      <Button variant="outline-warning">Simuler</Button>
-                    </a>
+                    <div className="d-flex justify-content-around">
+                      <a href="/pp-browne">
+                        <Button variant="outline-info">Comprendre</Button>
+                      </a>
+                      <a href="https://nicolaslequeux.shinyapps.io/nlx-pp-input/" target="_blank" rel="noopener noreferrer">
+                        <Button variant="outline-warning">Simuler</Button>
+                      </a>
+                    </div>
                   </Card.Body>
                 </Card>    
               </Col>

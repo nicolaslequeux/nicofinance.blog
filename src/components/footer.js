@@ -11,8 +11,11 @@ export default () => (
       style={{ height: "30px" }}
     >
       <Nav className="mx-auto">
-        <Nav.Link href="#" style={{color: "lightgray"}}><FaTwitter /></Nav.Link>
-        <Nav.Link href="#" style={{color: "lightgray"}}><FaLinkedinIn /></Nav.Link>
+        <Nav.Link href="https://twitter.com/nicofinanceblog" target="_blank" rel="noopener noreferrer" style={{color: "lightgray"}}><FaTwitter /></Nav.Link>
+        <Nav.Link href="https://www.linkedin.com/in/nicolas-lequeux-5b02806/" target="_blank" rel="noopener noreferrer" style={{color: "lightgray"}}><FaLinkedinIn /></Nav.Link>
       </Nav>
   </Navbar>
 )
+
+
+// href="https://nicolaslequeux.shinyapps.io/nlx-pp-input/" target="_blank" rel="noopener noreferrer">
