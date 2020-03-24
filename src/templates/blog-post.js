@@ -44,8 +44,8 @@ export default ({ data, pageContext }) => {
             </li>
             <li>
               <Link
-                to="/prologue"
-                rel="prologue"
+                to="/blog"
+                rel="blog"
                 style={{textDecoration: "none"}}
                 className="text-center text-dark">
                 Retour à la liste

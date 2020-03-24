@@ -1,6 +1,6 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
-import Img from "gatsby-image"
+import { graphql } from "gatsby"
+//import Img from "gatsby-image"
 
 import Card from "../components/card"
 
@@ -21,33 +21,12 @@ const ListPosts = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-
       <Container style={{ maxWidth: "700px", margin: "auto" }}>
-
         <h2 className="text-center pt-4 pb-3">Liste des posts</h2>
-
-        <div style={{ width: "800px", margin: "auto"}}>
-
+        <div style={{ width: "100%", margin: "auto"}}>
           { posts.map((post) => {
-
               return (
-
                 <div key={post.node.id} className="py-1">
-
-                  {/* <Link
-                    to={post.node.fields.slug}
-                    className="text-dark d-flex align-items-center"
-                    >
-                      <Img
-                        fluid={post.node.frontmatter.cover.childImageSharp.fluid}
-                        alt="cover"
-                        className="mr-3"
-                        style={{ width: "125px", height: "125px", filter: "grayscale(25%)" }}></Img>
-
-                      {post.node.frontmatter.date} - {post.node.frontmatter.title}
-
-                  </Link> */}
-
                   <Card
                     title={post.node.frontmatter.title}
                     excerpt={post.node.excerpt}
@@ -56,27 +35,21 @@ const ListPosts = ({ data }) => {
                     timeToRead={post.node.timeToRead}
                     cover={post.node.frontmatter.cover.childImageSharp.fluid}
                   />
-
                   <br></br>
-
                 </div>
-
               )
             })
           }
         </div>
-
       </Container>
-
     </Layout>
-
   )
 }
 
 export const queryAll = graphql`
   query {
     allMarkdownRemark(
-      sort: {fields: fields___slug, order: ASC},
+      sort: {fields: frontmatter___date, order: DESC},
       filter: {fields: {sourceName: {eq: "blog"}}}) {
         totalCount
         edges {
