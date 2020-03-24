@@ -16,6 +16,3 @@ export default () => (
       </Nav>
   </Navbar>
 )
-
-
-// href="https://nicolaslequeux.shinyapps.io/nlx-pp-input/" target="_blank" rel="noopener noreferrer">
