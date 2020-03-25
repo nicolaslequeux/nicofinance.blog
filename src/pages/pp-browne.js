@@ -14,10 +14,9 @@ const SecondPage = () => (
     
       <h2 className="text-center pt-4 pb-3">Le Portefeuille Permanent de Harry Browne</h2>
 
-      <p className="text-center">Feuille de calcul Google Sheet</p>
-
+      <p className="text-center">Feuille de calcul Google Sheet - Performances à 1-12-36 mois</p>
+      
       <div className="text-center">
-
         <iframe
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLxbXq7cxo596eRQ5ACZm2XAPHV9xGUR4G_luLTgmLtof4N_XFgFDyBSgGF3WemptwywXL4mP740Aa/pubhtml?gid=1224187303&amp;single=true&amp;widget=true&amp;headers=false"
           title="PP-Calcul"
@@ -26,24 +25,26 @@ const SecondPage = () => (
           style={{
           }}
         ></iframe>
+      </div>
+      
+      <br></br>
 
-        <p> </p>
 
-        <iframe
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLxbXq7cxo596eRQ5ACZm2XAPHV9xGUR4G_luLTgmLtof4N_XFgFDyBSgGF3WemptwywXL4mP740Aa/pubchart?oid=1518794513"
-          title="PP-Graphique"
-          width="660"
-          height="400"
-        ></iframe>
+      <p>Le meilleur moyen de comprendre une stratégie, c'est encore de la back-tester et d'étudier son comportement passé. A cet effet j'ai développé un simulateur en ligne:</p>
 
+      <div className="text-center m-4">
+        <a href="https://nicolaslequeux.shinyapps.io/nlx-pp-input/" target="_blank" rel="noopener noreferrer">
+          <Button variant="success">
+            Simulateur PP-Browne
+          </Button>
+        </a>
       </div>
 
-      <p>  </p>
+    
 
-
+      <h5 className="text-center p-3">Résumé de la stratégie du Portefeuille Permanent</h5>
 
       <Accordion>
-
         <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="1">
@@ -78,7 +79,7 @@ const SecondPage = () => (
           </Card.Header>
           <Accordion.Collapse eventKey="3">
             <Card.Body className="text-justify">
-              <p>La stratégie repose sur l’exploitation des cycles économiques qui sont au nombre de 4 :</p>
+              <p>La stratégie du PP de Harry Browne repose sur l’exploitation des cycles économiques qui sont au nombre de 4 :</p>
               <ul>
                 <li>Prospérité</li>
                 <li>Récession</li>
@@ -101,13 +102,7 @@ const SecondPage = () => (
                 <li>Déflation : bon pour les obligations</li>
               </ul>
               <p>En période de croissance il vaut mieux détenir des actions, en période de récession des liquidités, en période d’inflation de l’or et en période de déflation des obligations.</p>
-              <p>Ainsi, Harry Brown recommande de détenir chacun de ces 4 actifs en permanence, c'est-à-dire tout au long de l'année et à parts égales :</p>
-              <ul>
-                <li>La poche action est investie sur l’indice du marché action des USA</li>
-                <li>La poche obligation est investie en obligations à long terme de l'État des USA</li>
-                <li>L'or est détenu au travers d'un fond investi en or ou partiellement en or physique</li>
-                <li>Le cash est investi sur des fonds monétaires sans risques</li>
-              </ul>
+              <p>Ainsi, Harry Brown recommande de détenir chacun de ces 4 actifs en permanence, c'est-à-dire tout au long de l'année et à parts égales.</p>
               <p>La beauté de cette allocation est qu'elle n'essaie pas de prédire l'évolution future de l'économie pour savoir sur quel actif investir. Il s'agit simplement de maintenir une allocation équilibrée entre ces 4 actifs. Ainsi nous aurons toujours au moins un actif approprié pour bien performer eu égard à l'état dans lequel l'économie se situe.</p>
             </Card.Body>
           </Accordion.Collapse>
@@ -127,27 +122,26 @@ const SecondPage = () => (
               </p>
               <ul>
                 <li>Actions : VTI ou SPY</li>
-                <li>Obligations d'état à long-terme: TLT</li>
+                <li>Obligations: TLT</li>
                 <li>L'or : GLD</li>
                 <li>Le cash : BIL ou SHV</li>
               </ul>
               <p>
-                Depuis le règlement européen MiFID II qui est entré en application fin 2018, ces ETF américains ne sont plus disponibles pour les particuliers européens. Des équivalent existent en Europe.
+                Depuis le règlement européen MiFID II qui est entré en application fin 2018, ces ETF américains ne sont plus disponibles pour les particuliers européens. Des équivalents existent néanmoins en Europe.
               </p>
               <p>Les ETF US sont intéressants pour réaliser des simulations car ils présentent les historiques de données les plus longs</p>
-              <p>Personnellement, je ne préconise pas la réalisation d'un PP investi sur les marchés européens voir même français pour un investisseur français. Il faut privilégier les zones géographiques où le capitalisme fonctionne encore à peu près. La bourse américaine présente la plus grosse capitalisation mondiale et ces entreprises opèrenet dans le monde entier.</p>
-              <p>Dans le cas du PP américain, le risque de change ne pose pas de problème car les actions US ne dépendent que très peu de la valeur du dollar. L'or ne court aucun risque de change car c'est intrinsèquement une monnaie. Les seuls risques portent sur les poches obligations et cash. Je préconnise quand même les obligations d'état US qui sont libéllées en USD car en cas de troubles sur les marchés, ce sont les seules qui ont valeur de refuge, il n'existe aucun équivalent. C'est aussi un moyen de diversifier un peu son portefeuille avec un peu de dollar au travers de la poche obligation. La poche cash peut rester en euro ou être diversifiée dans d'autres monnaies comme la livre sterling ou le yen.</p>
+              <p>Personnellement, je ne préconise pas la réalisation d'un PP investi sur les marchés européens voir même français pour un investisseur français. Il faut privilégier les zones géographiques où le capitalisme fonctionne encore à peu près. La bourse américaine représente 50% de la capitalisation mondiale et ces entreprises opèrent dans le monde entier.</p>
+              <p>Dans le cas d'un PP américain, je considère que le risque de change n'est pas un problème bien au contarire:</p>
+              <ul>
+                <li>La poche action peut est réalisée avec un indice comme le S&P500. Les entreprises qui composent cet indice sont peu dépendentes de la valeur du dollar car elles opèrent sur des marchés mondialisés.</li>
+                <li>L'or ne court aucun risque de change car c'est intrinsèquement une monnaie.</li>
+                <li>La poche cash peut rester en euro ou être en partie diversifiée dans d'autres monnaies comme la livre sterling ou le yen.</li>
+                <li>Seule La poche obligations US est réellement soumise au risque de change. Je préfère quand même investir sur des obligations US à long termes, qui jouent le role de valeur refuge et ont tendance à monter, quand les actions souffrent. Il n'existe aucun autre équivalent. Finalement c'est aussi un moyen facile de diversifier 25% de son épargne avec du dollars, au lieu de rester 100% en euros.</li>
+              </ul>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-
-
       </Accordion>
-
-
-
-
-
 
     </Container>
 

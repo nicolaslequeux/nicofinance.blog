@@ -47,18 +47,6 @@ The lobby code is `weloveesports`!
 
 <hr>
 
-![Canada Cup 2018 Logo](https://smashgg.imgix.net/images/tournament/56753/image-27e8c63e576a1311f73a7851b15c417d.png)
-
-<hr>
-
-[This text goes to the smashgg homepage!](http://smash.gg)
-
-<hr>
-
-<a href="Intended hyperlink">![Canada Cup 2018 Logo](https://smashgg.imgix.net/images/tournament/56753/image-27e8c63e576a1311f73a7851b15c417d.png)</a>
-
-<hr>
-
 ### shopping list pt 1
 
 * allen wrenches

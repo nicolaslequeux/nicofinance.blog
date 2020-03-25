@@ -1,5 +1,5 @@
 import React from "react"
-import { Nav, Navbar } from "react-bootstrap"
+import { Nav, Navbar, NavDropdown } from "react-bootstrap"
 import { FaHome } from "react-icons/fa"
 
 export default () => (
@@ -8,9 +8,13 @@ export default () => (
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mx-auto">
         <Nav.Link href="/"><FaHome size={24}/></Nav.Link>
-        <Nav.Link href="/prologue">Prologue</Nav.Link>
         <Nav.Link href="/blog">Blog</Nav.Link>
-        <Nav.Link href="/pp-browne">PP</Nav.Link>        
+        <NavDropdown title="Stratégies" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/pp-browne">PP-Browne</NavDropdown.Item>
+          <NavDropdown.Item href="/gem-gbm">GEM/GBM</NavDropdown.Item>
+        </NavDropdown>
+        {/* <Nav.Link href="/pp-browne">PP-Browne</Nav.Link>         */}
+        <Nav.Link href="/prologue">Prologue</Nav.Link>
         <Nav.Link href="/liens">Liens</Nav.Link>
         <Nav.Link href="/qui-suis-je">Qui suis-je?</Nav.Link>
       </Nav>
