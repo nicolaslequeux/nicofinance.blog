@@ -2,7 +2,7 @@
 title: Introduction au Portefeuille Permanent
 ---
 
-La question suivante va être, comment s'y prendre ?
+L'étape suivante va être, comment s'y prendre?
 
 Pour la suite de mon exposé, je vais utiliser une stratégie d'épargne connue de certains investisseurs américains, le Portefeuille Permanent de Harry Browne. J'utiliserai cette stratégie comme support didactique pour vous expliquer les concepts importants à connaitre dans la gestion d'un portefeuille financier.
 
@@ -10,9 +10,11 @@ Pour la suite de mon exposé, je vais utiliser une stratégie d'épargne connue 
 
 Voici la stratégie :
 
-Harry Browne préconise un investissement dans les 4 classes d'actifs les plus pures qui existent en finance : les actions, les obligations, l'or et le cash. L'investissement doit être réalisé à part égales sur ces 4 actifs et les poches doivent être rééquilibrées chaque année. C'est tout !
+Harry Browne préconise un investissement dans les 4 classes d'actifs les plus pures qui existent en finance : les actions, les obligations, l'or et le cash. L'investissement doit être réalisé à part égales sur ces 4 classes d'actifs et les poches doivent être rééquilibrées chaque année.
 
-Nous utiliserons les indices américains qui offrent un historique de données important. Mais le raisonnement pourra être extrapolé à tout autre pays.
+C'est tout !
+
+Nous utiliserons les indices américains qui offrent un historique de données important. Mais le raisonnement pourra être extrapolé à tout autre pays ou continent.
 
 La stratégie repose sur l’exploitation des cycles économiques qui sont au nombre de 4 :
 - Prospérité
@@ -32,9 +34,9 @@ Relativement à cette expansion-contraction de l'économie, la quantité de monn
 
 La quantité de monnaie en circulation doit être adaptée au niveau de croissance ou décroissance de l'économie. C'est normalement le rôle des banques centrales d'ajuster ces niveaux de monnaie.
 
-Ce sont des lois quasi absolues dans un système capitaliste libéral. À tout moment, l'économie évoluera dans l'une de ces 4 phases (croissance ou récession avec inflation ou déflation). Le temps passé dans chacune de ces phases peut varier de quelques mois, dans le cas par exemple d'une récession de courte durée, à une dizaine d'années, cas de la période de croissance que nous connaissons depuis la dernière crise de 2008.
+Ce sont des lois quasi absolues dans un système capitaliste libéral. À tout moment, l'économie évoluera dans l'une de ces 4 phases (croissance ou récession avec inflation ou déflation). Le temps passé dans chacune de ces phases peut varier de quelques mois, dans le cas par exemple d'une récession de courte durée, à une dizaine d'années, cas de la période de croissance qui s'est développée après la crise de 2008.
 
-Le déroulement et l'ordre des phases est difficile à prévoir. Il est toujours clair à fortiori de savoir dans quelle phase nous étions quand nous en sommes sortis, mais c'est souvent moins évident sur le moment présent. Sommes-nous en ce moment-même en période de croissance ou de contraction de l’économie ?  La quantité de monnaie en circulation est-elle adaptée, en excès et source d’inflation, ou insuffisante et source de déflation ?
+Le déroulement et l'ordre des phases est difficile à prévoir. Il est toujours clair à fortiori de savoir dans quelle phase nous étions quand nous en sommes sortis, mais c'est souvent moins évident sur le moment présent. Sommes-nous en ce moment-même en période de croissance ou de contraction de l’économie ?  La quantité de monnaie en circulation est-elle adaptée, en excès et source d’inflation, ou insuffisante et source de déflation?
 
 A chacune de ces 4 phases du cycle économique correspond à un actif qui est le plus approprié pour bien performer :
 - Prospérité : bon pour les actions
@@ -49,10 +51,8 @@ Ainsi, Harry Brown recommande de détenir chacun de ces 4 actifs en permanence, 
 - La poche obligation est investie en obligations à long terme de l'État des USA
 - L'or est détenu au travers d'un fond investi en or ou partiellement en or physique
 - Le cash est investi sur des fonds monétaires sans risques
-<br></br>
 
 ![Portefeuille Permanent Répartition des actifs](./images/pp-repartition-actifs.png)
-<br></br>
 
 La beauté de cette allocation est qu'elle n'essaie pas de prédire l'évolution future de l'économie pour savoir sur quel actif investir. Il s'agit simplement de maintenir une allocation équilibrée entre ces 4 actifs. Ainsi nous aurons toujours au moins un actif approprié pour bien performer eu égard à l'état dans lequel l'économie se situe.
 
@@ -60,23 +60,22 @@ Ce type de portefeuille peut être réalisé très simplement et à moindre coû
 
 Chaque fin d'année, il suffira de rééquilibrer les 4 poches, c'est-à-dire vendre les actifs qui auront le plus progressé pour acheter ceux qui auront le mois progressé.
 
-Comment une épargne ainsi investie s’est-elle comportée dans le passé ?
+Comment une épargne ainsi investie s’est-elle comportée dans le passé?
 
 Voici la performance historique de la stratégie du Portefeuille Permanent de Harry Browne depuis 1978 pour le marché US :
-<br></br>
 
 ![Portefeuille Permanent performance totale](./images/pp-perf-totale.png)
-<br></br>
 
 Une somme unique investie de 10'000€ s'est transformée fin 2019 en un capital brut de 281'182€.
 
 Cela représente un rendement annualisé moyen de 8,27% avec plus de 80% des années qui ont eu un rendement positif et la plus mauvaise année n'était qu'une faible perte de -5,20%.
 
 En déduisant l'inflation le rendement annuel moyen est de 4,67%, soient 40 ans à progresser à quasiment +5% par an au-dessus de l'inflation, diantre !
-<br></br>
  
 ![Portefeuille Permanent performance annuelle](./images/pp-perf-annuelle.png)
-<br></br>
-Comment une stratégie aussi simple peut-elle performer aussi bien ? Une stratégie aussi efficace devrait être connue de tous ? Commençons par comprendre pourquoi la stratégie fonctionne ?
 
-Pour le comprendre, nous allons aborder les notions de risque, rendement et volatilité. La stratégie du Portefeuille Permanent de Harry Browne est composée de 4 actifs distincts qui peuvent être considérées comme les briques élémentaires de la finance, le marché des actions, des obligations, l'or et le cash. Chacune de ces classes d'actif à des caractéristiques de rendement et de risque qui lui est propre.
+Comment une stratégie aussi simple peut-elle performer aussi bien? De même, une stratégie aussi efficace devrait être connue de tous?
+
+Pour répondre à ces questions, nous allons aborder les notions de risque, rendement et volatilité.
+
+La stratégie du Portefeuille Permanent de Harry Browne repose sur 4 actifs distincts qui peuvent être considérées comme les briques élémentaires de la finance, le marché des actions, des obligations, l'or et le cash. Chacune de ces classes d'actif a des caractéristiques de rendement et de risque qui lui est propre.

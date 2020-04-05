@@ -14,4 +14,4 @@ Il est pourtant possible de sortir de ce schéma classique, plus ou moins impos�
 
 Comme nous allons le voir, une épargne investie sur les marchés financiers peut nous permettre d’atteindre cet objectif.
 
-Quand vous aurez terminé votre lecture, vous aurez compris les avantages à se constituer une épargne financière. Vous aurez un plan d'action pour épargner, faire fructifier votre capital et en tirer des revenus réguliers, avec à la clef une possible indépendance financière ou tout du moins des revenus supplémentaires, réguliers et permanents.
+<!-- Quand vous aurez terminé votre lecture, vous aurez compris les avantages à se constituer une épargne financière. Vous aurez un plan d'action pour épargner, faire fructifier votre capital et en tirer des revenus réguliers, avec à la clef une possible indépendance financière ou tout du moins des revenus supplémentaires, réguliers et permanents. -->

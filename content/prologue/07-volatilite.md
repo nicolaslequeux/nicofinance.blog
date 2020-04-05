@@ -8,11 +8,10 @@ Le marché des actions US de 1978 à 2019 a eu une volatilité de 15,11%, les ob
 
 La volatilité d'un actif est une mesure imparfaite du risque réel, car le temps de détention de cet actif va énormément influencer notre perception du risque.
 
-Voyons l'influence du temps dans notre perception du risque sur le marché des actions en particulier :
-<br></br>
+Voyons l'influence du temps dans notre perception du risque sur le marché des actions :
 
 ![Performance des actifs en fonction de la durée de détention](./images/perf-duree-detention.png)
-<br></br>
+
 Voilà comment se lit ce graphique :
 
 - Pour un investissement en actions d'une durée de 1 an, vous auriez pu gagner +52% et perdre -37% en une seule année.
@@ -27,4 +26,4 @@ Voilà comment se lit ce graphique :
 
 Les premiers fonds d’investissements indiciels ont été créés aux Etats-Unis au milieu des années 1970. Une épargne investie sur l’indice des actions américaines de 1978 à 2019 a délivré une performance annuelle moyenne de 12.88%. Si vous retirez l’inflation pour comparer en monnaie constante, la performance nette est un remarquable 9.41% par an !
 
-**A retenir : Les principales classes d'actifs en finance sont les actions, les obligations, l'or et le cash. Chacune de ces classes d'actifs présente des profils de volatilité et rendement différents. Généralement, plus un actif est rentable, plus il est risqué. La perception du risque varie en fonction de la durée de détention. Sur le long terme, les actions sont la classe d’actif qui offre le meilleur rapport rendement risque.**
+<!-- **A retenir : Les principales classes d'actifs en finance sont les actions, les obligations, l'or et le cash. Chacune de ces classes d'actifs présente des profils de volatilité et rendement différents. Généralement, plus un actif est rentable, plus il est risqué. La perception du risque varie en fonction de la durée de détention. Sur le long terme, les actions sont la classe d’actif qui offre le meilleur rapport rendement risque.** -->

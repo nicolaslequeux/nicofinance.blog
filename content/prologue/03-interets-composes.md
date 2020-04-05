@@ -21,7 +21,7 @@ Bien que cela puisse paraître anodin, c'est pourtant un concept essentiel, car 
 
 C'est un peu comme rouler une boule de neige, la boule va progressivement gagner de la masse, au début la progression est lente, puis s'accélère de plus en plus, jusqu'à ce qu’on ne puisse plus la faire rouler tellement elle est devenue lourde.
 
-J’utilise le mot intérêt au sens large, pour définir tous les tous flux financiers qui participent à faire grossir votre épargne : les intérêts d‘un livret bancaire, le coupon d’une obligation, la plus-value lors de la revente d’une action ou le versement d’un dividende.
+J’utilise le mot intérêt au sens large, pour définir tous les flux financiers qui participent à faire grossir votre épargne : les intérêts d‘un livret bancaire, le coupon d’une obligation, la plus-value lors de la revente d’une action, le versement d’un dividende, etc.
 
 Pour bien saisir l'importance de la composition des intérêts, considérons deux exemples pratiques.
 <br></br>
@@ -40,11 +40,11 @@ Considérons que vous épargniez 500€ par mois, soient 6’000€ par an.
 <br></br>
 Au bout de cinq ans, les intérêts accumulés s'élèvent à 7'464€.
 
-Au bout de dix ans, c'est-à-dire qu'une même période de 5 ans supplémentaire s'est écoulée, les intérêts s’élèvent désormais à 31’249€, soient un supplément de 23’785€. Comparativement à la période initiale de 5 ans c’est 3 fois plus d’intérêts accumulés pour la même durée de détention.
+Au bout de dix ans, c'est-à-dire qu'une même période supplémenatire de 5 ans s'est écoulée, les intérêts s’élèvent désormais à 31’249€, soient un supplément de 23’785€. Comparativement à la période initiale de 5 ans c’est 3 fois plus d’intérêts accumulés pour la même durée de détention!
 
-Vous voyez clairement que la formation du capital s’accélère avec le temps. Vous avez là le phénomène de ce que l’on appelle les « intérêts composés », qui finissent d'ailleurs après quelque temps par être la contribution prépondérante à la formation de votre épargne.
+Vous voyez clairement que la formation du capital s’accélère avec le temps. Vous avez là le phénomène de ce que l’on appelle les « intérêts composés », qui finissent d'ailleurs après quelque temps, par être la contribution prépondérante à la formation de votre épargne.
 
-Le niveau des 500’000€ sera franchi au cours de la 27ième d’année d’épargne. Pour quelqu’un qui aurait commencé à épargner vers 25 ans, cela veut dire ½ millions d’euros épargnés à 50 ans, soit un équivalent de 20k-30k€ en revenus financiers annuels. Donc la possibilité de lever le pied professionnellement, voir ne plus travailler du tout 15 ans avant les copains !
+Le niveau des 500’000€ sera franchi au cours de la 27ième d’année d’épargne. Pour quelqu’un qui aurait commencé à épargner vers 25 ans, cela veut dire ½ millions d’euros épargnés à 50 ans, soit un équivalent de 20k-30k€ en revenus financiers annuels. Donc la possibilité de lever le pied professionnellement, voir ne plus travailler du tout 15 ans avant les copains!
 
 Il a fallu 27 ans pour atteindre les 500'000€ et le capital est déjà doublé à 1 million d'euros en 8 ans supplémentaires seulement.
 
@@ -71,6 +71,6 @@ La différence est impressionnante, bien que Fougasse n'ai épargné que 60'000�
 
 En comparaison, Gerbert qui aura fourni un effort d'épargne trois fois plus important de 180'000€ puisque qu'il aura épargné pendant 30 ans, de 35 ans à 65 ans, ne pourra jamais rattraper Fougasse parti le premier.
 
-En ce qui concerne Cruchot, une épargne de 120'000€ constitué tardivement, de 45 ans à 65 ans, soient quand même 20 ans d'épargne, ne lui permettrons que d'accumuler que le tiers de l'épargne accumulée par Fougasse qui aura pourtant épargné moitié moins longtemps que lui.
+En ce qui concerne Cruchot, une épargne de 120'000€ constitué tardivement, de 45 ans à 65 ans, soient quand même 20 ans d'épargne, ne lui permettrons d'accumuler que le tiers de l'épargne accumulée par Fougasse qui aura pourtant épargné moitié moins longtemps que lui.
 
-**A retenir : Après un certain nombre d'année, l'essentiel de l'épargne accumulée ne proviendra pas de des sommes épargnées mais des intérêts composés. Plus vous commencez tôt, plus vous bénéficierez de l'effet de ces intérêts composés. Pensez à la boule de neige.**
+<!-- **A retenir : Après un certain nombre d'année, l'essentiel de l'épargne accumulée ne proviendra pas de des sommes épargnées mais des intérêts composés. Plus vous commencez tôt, plus vous bénéficierez de l'effet de ces intérêts composés. Pensez à la boule de neige.** -->
