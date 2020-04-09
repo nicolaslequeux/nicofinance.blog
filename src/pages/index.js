@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 
 
 const IndexPage = ({ data }) => {
-  
+
   const posts = data.allMarkdownRemark.edges;
   
   return (
@@ -91,6 +91,7 @@ const IndexPage = ({ data }) => {
 
             { posts.map(({ node }) => (
               <BlogCard
+                key={node.id}
                 title={node.frontmatter.title}
                 excerpt={node.excerpt}
                 date={node.frontmatter.date}
@@ -138,6 +139,7 @@ export const latestPosts = graphql`
             }
             excerpt
             timeToRead
+            id
           }
         }
       }

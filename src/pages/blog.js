@@ -1,15 +1,45 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
 //import Img from "gatsby-image"
 
 import Card from "../components/card"
 
-import { Container } from "react-bootstrap"
+import { Container, Modal, Button } from "react-bootstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import addToMailChimp from "gatsby-plugin-mailchimp"
+
+
 const ListPosts = ({ data }) => {
+
+  const [email, setEmail] = useState('');
+  const [showForm, setShowForm] = useState(true);
+
+  const inputChangeHandler = (e) => {
+    console.log(e.currentTarget.value);
+    setEmail(e.currentTarget.value);
+  }
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+    console.log("email: ", email)
+    addToMailChimp(email)
+      .then((data) => {
+        console.log("data", data);
+        setShowForm(false);
+        handleShow();
+      })
+      .catch((error) => {
+        console.log("error", error);
+      })
+  }
+
+
+  const [showModal, setShowModal] = useState(false);
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => setShowModal(true);
 
   // const posts = data.allMarkdownRemark.edges.filter(
   //   name => name.node.fields.sourceName === 'prologue'
@@ -42,6 +72,34 @@ const ListPosts = ({ data }) => {
           }
         </div>
       </Container>
+
+      {
+        showForm ? (
+          <form onSubmit={submitHandler}>
+          <div style={{ textAlign: 'center' }}>
+            <p>Si vous souhaitez être informé des nouvelles publications</p>
+            <input
+              placeholder="Adresse email"
+              name="email"
+              type="email"
+              onChange={inputChangeHandler}
+            />
+            <button type="submit">Souscrire</button>
+          </div>
+        </form>
+        ) : null
+      }
+
+      <Modal show={showModal} onHide={handleClose}>
+        <Modal.Body>Votre inscription a bien été pris en compte</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+        
     </Layout>
   )
 }

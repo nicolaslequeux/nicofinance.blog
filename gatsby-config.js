@@ -18,6 +18,13 @@ module.exports = {
     },
 
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://blog.us19.list-manage.com/subscribe/post?u=bbf45ae6245da3522039e217e&amp;id=a79221b693'
+      }
+    },
+
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
