@@ -102,9 +102,8 @@ const IndexPage = ({ data }) => {
 
             </Col>
           </Row>
-
+          
         </Container>
-
 
     </Layout>
   )

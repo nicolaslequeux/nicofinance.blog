@@ -1,10 +1,38 @@
-import React from "react"
+import React, { Component } from "react";
 
-import { Container, Accordion, Card, Button } from "react-bootstrap"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { Container, Accordion, Card, Button } from "react-bootstrap";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+//import Spinner from "../ui/spinner/spinner";
 
-const SecondPage = () => (
+class SecondPage extends Component {
+  constructor(props) {
+    super(props)
+    this.state = ({
+      loadingSpinner: true
+    })
+  }
+
+
+  render() {
+
+    const ppIFrame = (
+      <iframe
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLxbXq7cxo596eRQ5ACZm2XAPHV9xGUR4G_luLTgmLtof4N_XFgFDyBSgGF3WemptwywXL4mP740Aa/pubhtml?gid=1224187303&amp;single=true&amp;widget=true&amp;headers=false"
+        title="PP-Calcul"
+        width="660"
+        height="400"
+        style={{
+        }}
+      ></iframe>
+    );
+  
+  // setTimeout(() => {
+  //   this.setState({ loadingSpinner: false});
+  //   console.log("TIMEOUT TERMINÉ...")
+  // }, 4000);
+
+  return(
 
   <Layout>
 
@@ -16,17 +44,15 @@ const SecondPage = () => (
 
       <p className="text-center">Feuille de calcul Google Sheet - Performances à 1-12-36 mois</p>
       
-      <div className="text-center">
-        <iframe
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLxbXq7cxo596eRQ5ACZm2XAPHV9xGUR4G_luLTgmLtof4N_XFgFDyBSgGF3WemptwywXL4mP740Aa/pubhtml?gid=1224187303&amp;single=true&amp;widget=true&amp;headers=false"
-          title="PP-Calcul"
-          width="660"
-          height="400"
-          style={{
-          }}
-        ></iframe>
-      </div>
+      {/* <div className="text-center">
+        {this.state.loadingSpinner ? <Spinner/> : ppIFrame }
+      </div> */}
       
+      <div className="text-center">
+        { ppIFrame }
+      </div>
+
+
       <br></br>
 
 
@@ -150,5 +176,8 @@ const SecondPage = () => (
   </Layout>
 
 )
+
+        }
+      }
 
 export default SecondPage

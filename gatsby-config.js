@@ -10,12 +10,21 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
 
     {
+      resolve: `gatsby-plugin-google-analytics`,
+        options: {
+           trackingId: `G-YNBYRQ69P1`,
+           head: true
+        }
+    },
+
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

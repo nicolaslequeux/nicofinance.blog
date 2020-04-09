@@ -7,3 +7,4 @@ A GatsbyJS starter that includes
 - sticky on scroll navbar
 - SASS compiler
 - basic layout
+- gatsby-plugin-google-analytics
