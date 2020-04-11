@@ -10,7 +10,7 @@ Pour la suite de mon exposé, je vais utiliser une stratégie d'épargne connue 
 
 Voici la stratégie:
 
-Harry Browne préconise un investissement dans les 4 classes d'actifs les plus pures qui existent en finance : les actions, les obligations, l'or et le cash. L'investissement doit être réalisé à part égales sur ces 4 actifs et les poches doivent être rééquilibrées chaque année.
+Harry Browne préconise un investissement dans les 4 classes d'actifs les plus pures qui existent en finance: les actions, les obligations, l'or et le cash. L'investissement doit être réalisé à parts égales sur ces 4 actifs et les poches doivent être rééquilibrées chaque année.
 
 C'est tout!
 

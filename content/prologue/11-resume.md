@@ -4,7 +4,7 @@ title: Résumé
 
 Vous voici à la fin de mon exposé. Si vous étiez totalement débutant en matière d’investissements financiers, j’espère que j’aurai répondu en partie aux questions que vous vous posiez et rendu plus accessible une discipline qui peut sembler de prime abord compliquée ou réservée aux professionnels. Il n’en est rien, avec un peu de bon sens et de culture financière, chacun d’entre nous est parfaitement capable de gérer un portefeuille d’actifs financiers dans la durée et avec succès.
 
-Vous avez désormais suffisamment de connaissance pour poursuivre l’apprentissage de cette discipline, par vous-même. J’aurai l’occasion d’aborder plus en détail dans ce blog, les différents sujets que j’ai survolés dans mon bref exposé.
+Vous avez désormais suffisamment de connaissance pour poursuivre l’apprentissage de cette discipline, par vous-même. J’aurai l’occasion d’aborder plus en détail dans ce blog, les différents sujets que j’ai introduit dans ce bref exposé.
 
 Reprenons tout ce que nous avons vu :
 
@@ -24,7 +24,7 @@ Reprenons tout ce que nous avons vu :
 <br></br>
 - La diversification des investissements au travers de plusieurs classes d’actifs décorrélés, comme le sont les actions, les obligations, l’or et le cash, permet de lisser la performance globale d’un portefeuille.
 <br></br>
-- Un portefeuille doit être rééquilibré de temps à autre afin de préserver les effets bénéfiques de la diversification.
+- Un portefeuille doit être maintenu équilibré afin de préserver les effets bénéfiques de la diversification.
 <br></br>
 - Les supports d’investissements à privilégier sont les trackers d’indices à gestion passive.
 <br></br>

@@ -6,7 +6,7 @@ Les intérêts composés sont un concept extrêmement puissant qui est la base d
 
 Albert Einstein lui-même, aurait qualifié avec humour, les intérêts composés de force la plus puissante de l'univers : "Les intérêts composés sont la huitième merveille du monde. Celui qui les comprend les accumule, celui qui ne les comprend pas les paie".
 
-Le terme intérêts composési signifie simplement que vous allez gagner des intérêts sur les intérêts précédemment accumulés.
+Le terme intérêts composés signifie simplement que vous allez gagner des intérêts sur les intérêts précédemment accumulés.
 
 Considérons un capital fixe de départ de 10'000 rémunéré à 10% chaque année :
 
@@ -17,11 +17,11 @@ Considérons un capital fixe de départ de 10'000 rémunéré à 10% chaque ann�
 
 Vous pouvez constater que les intérêts reçus ne restent pas fixes à 1’000€ mais augmentent un peu plus chaque année, car le capital sur lequel ils s'appliquent a lui-même été augmenté des intérêts précédemment accumulés.
 
-Bien que cela puisse paraître anodin, c'est pourtant un concept essentiel, car la puissance des intérêts composés est phénoménale. Et ce qui pouvait à première vue paraître comme un objectif d'épargne inatteignable, comme devenir financièrement autonome, va pouvoir se réaliser sans trop d'effort, pour qui veut bien se donner un peu de temps.
+Bien que cela puisse paraître anodin, c'est pourtant un concept essentiel, car la puissance des intérêts composés est phénoménale. Et ce qui pouvait à première vue paraître comme un objectif d'épargne difficile à atteindre, comme devenir financièrement autonome, va pouvoir se réaliser sans trop d'effort, pour qui veut bien se donner un peu de temps.
 
 <!-- C'est un peu comme rouler une boule de neige, la boule va progressivement gagner de la masse, au début la progression est lente, puis s'accélère de plus en plus, jusqu'à ce qu’on ne puisse plus la faire rouler tellement elle est devenue lourde. -->
 
-’utilise le mot intérêt au sens large, pour définir tous les tous flux financiers qui participent à faire grossir votre épargne : les intérêts d‘un livret bancaire, le coupon d’une obligation, la plus-value lors de la revente d’une action ou le versement d’un dividende.
+J’utilise le mot intérêt au sens large, pour définir tous les flux financiers qui participent à faire grossir votre épargne : les intérêts d‘un livret bancaire, le coupon d’une obligation, la plus-value lors de la revente d’une action, le versement d’un dividende, etc.
 
 Pour bien saisir l'importance de la composition des intérêts, considérons deux exemples pratiques.
 <br></br>
@@ -40,9 +40,9 @@ Au bout de cinq ans, les intérêts accumulés s'élèvent à 7'464€.
 
 Au bout de dix ans, c'est-à-dire qu'une même période de 5 ans supplémentaire s'est écoulée, les intérêts s’élèvent désormais à 31’249€, soient un supplément de 23’785€. Comparativement à la période initiale de 5 ans c’est 3 fois plus d’intérêts accumulés pour la même durée de détention.
 
-Vous voyez clairement que la formation du capital s’accélère avec le temps. Vous avez là le phénomène de ce que l’on appelle les « intérêts composés », qui finissent d'ailleurs après un certain temps par être la contribution prépondérante à la formation de votre épargne.
+Vous voyez clairement que la formation du capital s’accélère avec le temps. Vous avez là le phénomène de ce que l’on appelle les « intérêts composés », qui finissent d'ailleurs après un certain temps, par être la contribution prépondérante à la formation de votre épargne.
 
-Le niveau des 500’000€ sera franchi au cours de la 27ième d’année d’épargne. Pour quelqu’un qui aurait commencé à épargner vers 25 ans, cela veut dire ½ millions d’euros épargnés à 50 ans, soit un équivalent de 20k-30k€ en revenus financiers annuels.
+Le niveau des 500’000€ sera franchi au cours de la 27ième d’année d’épargne. Pour quelqu’un qui aurait commencé à épargner vers 25 ans, cela veut dire ½ millions d’euros épargnés à 50 ans, soit l'équivalent de 20k-30k€ en revenus financiers annuels.
 
 Il a fallu 27 ans pour atteindre les 500'000€ et le capital est déjà doublé à 1 million d'euros en 8 ans supplémentaires seulement.
 
