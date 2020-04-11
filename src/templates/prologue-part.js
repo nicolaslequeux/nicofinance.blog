@@ -18,6 +18,7 @@ export default ({ data, pageContext }) => {
           <h2>{chapitre.frontmatter.title}</h2>
           <hr></hr>
             <div dangerouslySetInnerHTML={{ __html: chapitre.html }} className="text-justify" />
+            <br></br>
           <hr></hr>
         </div>
 

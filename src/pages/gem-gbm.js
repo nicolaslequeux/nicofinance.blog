@@ -14,14 +14,11 @@ const SecondPage = () => (
     
       <h2 className="text-center pt-4 pb-3">Global Equity/Balanced Momentum</h2>
 
-      <p>The Global Balanced Momentum (GBM) is a rules-based approach using relative and absolute momentum applied to S&P 500 (SPY), the MSCI All Country World ex-US (VEU) and the Barclays Capital US Aggregate Bond (AGG). Relative momentum looks for strength relative to other assets, while absolute momentum looks for positive past returns in excess of US Treasury bill returns (BIL). A constant allocation is maintained in the bond allocation according to the investor appetite.The default model uses a 12-month relative momentum with a 30% permanent allocation to bonds.References
+      <p>The Global Balanced Momentum (GBM) is a rules-based approach using relative and absolute momentum applied to S&P 500 (SPY), the MSCI All Country World ex-US (VEU) and the Barclays Capital US Aggregate Bond (AGG). Relative momentum looks for strength relative to other assets, while absolute momentum looks for positive past returns in excess of US Treasury bill returns (BIL). A constant allocation is maintained in the bond allocation according to the investor appetite.The default model uses a 12-month relative momentum with a 30% permanent allocation to bonds.References</p>
 
-Gary Antonacci, Dual Momentum Investing: An Innovative Strategy for High Returns with Lower Risk, November 2014
-https://www.amazon.com/Dual-Momentum-Investing-Innovative-Strategy/dp/0071849440
-
-      </p>
-
-
+      <p>Gary Antonacci, Dual Momentum Investing: An Innovative Strategy for High Returns with Lower Risk, November 2014</p>
+      
+      <p>https://www.amazon.com/Dual-Momentum-Investing-Innovative-Strategy/dp/0071849440</p>
 
     </Container>
 

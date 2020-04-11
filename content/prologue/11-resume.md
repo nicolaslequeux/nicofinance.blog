@@ -2,9 +2,9 @@
 title: Résumé
 ---
 
-Nous arrivons à la fin de cet exposé. Si vous étiez novice en matière d’investissements financiers, j’espère que j’aurai répondu en partie aux questions que vous pouviez vous poser et rendu plus accessible une discipline qui peut sembler de prime abord compliquée ou réservée aux seuls professionnels. Il n’en est rien, avec un peu de bon sens et de culture financière, chacun d’entre nous est parfaitement capable de gérer un portefeuille d’actifs financiers dans la durée et avec succès.
+Vous voici à la fin de mon exposé. Si vous étiez totalement débutant en matière d’investissements financiers, j’espère que j’aurai répondu en partie aux questions que vous vous posiez et rendu plus accessible une discipline qui peut sembler de prime abord compliquée ou réservée aux professionnels. Il n’en est rien, avec un peu de bon sens et de culture financière, chacun d’entre nous est parfaitement capable de gérer un portefeuille d’actifs financiers dans la durée et avec succès.
 
-Vous avez désormais suffisamment de connaissance pour poursuivre l’apprentissage de cette discipline, par vous-même. J’aurai l’occasion d’aborder plus en détail dans ce blog, les différents sujets que nous avons survolés dans ce bref exposé.
+Vous avez désormais suffisamment de connaissance pour poursuivre l’apprentissage de cette discipline, par vous-même. J’aurai l’occasion d’aborder plus en détail dans ce blog, les différents sujets que j’ai survolés dans mon bref exposé.
 
 Reprenons tout ce que nous avons vu :
 
@@ -28,7 +28,7 @@ Reprenons tout ce que nous avons vu :
 <br></br>
 - Les supports d’investissements à privilégier sont les trackers d’indices à gestion passive.
 <br></br>
-Waouh quel chemin parcouru en seulement une petite heure de lecture !
+Quel chemin parcouru en seulement une petite heure de lecture !
 <br></br>
 
 Pour en savoir plus sur l'implémentation du [Portefeuille Permanent de Harry Browne](/pp-browne).
