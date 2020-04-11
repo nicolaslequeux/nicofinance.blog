@@ -17,7 +17,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: `/prologue${slug}`,
+      value: `/post${slug}`,
     })
   
   }
@@ -98,23 +98,23 @@ exports.createPages = async ({ graphql, actions }) => {
 
   })
 
-    // Create blog pages with previous, next variable populated
-    mdBlog.forEach((md, index) => {
+  // Create blog pages with previous, next variable populated
+  mdBlog.forEach((md, index) => {
 
-      const previous = index === mdBlog.length - 1 ? null : mdBlog[index +1].node
-      const next = index === 0 ? null : mdBlog[index - 1].node
-  
-      createPage({
-        path: md.node.fields.slug,
-        component: path.resolve(`./src/templates/blog-post.js`),
-        context: {
-          slug: md.node.fields.slug,
-          previous,
-          next
-        },
-      })
-  
+    const previous = index === mdBlog.length - 1 ? null : mdBlog[index +1].node
+    const next = index === 0 ? null : mdBlog[index - 1].node
+
+    createPage({
+      path: md.node.fields.slug,
+      component: path.resolve(`./src/templates/blog-post.js`),
+      context: {
+        slug: md.node.fields.slug,
+        previous,
+        next
+      },
     })
+
+  })
 
 
 }

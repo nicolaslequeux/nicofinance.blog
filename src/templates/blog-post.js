@@ -2,11 +2,21 @@ import React from "react"
 import { Container } from "react-bootstrap"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
+import { DiscussionEmbed } from "disqus-react"
 
 export default ({ data, pageContext }) => {
   
   const post = data.markdownRemark
   const { previous, next } = pageContext
+
+  const baseURL = 'http://nicofinance.blog'
+  
+  const disqusShortname = "nicofinanceblog";
+  const disqusConfig = {
+    identifier: data.markdownRemark.id,
+    title: post.frontmatter.title,
+    url: baseURL + pageContext.slug
+  };
 
   return (
 
@@ -31,38 +41,72 @@ export default ({ data, pageContext }) => {
               padding: 0,
             }}
           >
-            <li>
-              {previous && (
-                <Link
-                  to={previous.fields.slug}
-                  rel="prev"
-                  style={{textDecoration: "none"}}
-                  className="text-center text-dark">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
+          <li>
+            {previous && (
               <Link
-                to="/blog"
-                rel="blog"
+                to={previous.fields.slug}
+                rel="prev"
                 style={{textDecoration: "none"}}
                 className="text-center text-dark">
-                Retour à la liste
+                ← {previous.frontmatter.title}
               </Link>
-            </li>
-            <li>
-              {next && (
-                <Link
-                  to={next.fields.slug}
-                  rel="next"
-                  style={{textDecoration: "none"}}
-                  className="text-center text-dark">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
+            )}
+          </li>
+          <li>
+            <Link
+              to="/blog"
+              rel="blog"
+              style={{textDecoration: "none"}}
+              className="text-center text-dark">
+              Retour à la liste
+            </Link>
+          </li>
+          <li>
+            {next && (
+              <Link
+                to={next.fields.slug}
+                rel="next"
+                style={{textDecoration: "none"}}
+                className="text-center text-dark">
+                {next.frontmatter.title} →
+              </Link>
+            )}
+          </li>
+        </ul>
+
+        <br></br>
+        <hr></hr>
+        
+        <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+
+        {/* <h3 className="text-center">
+            Share this post
+          </h3>
+          <div className="text-center social-share-links">
+            <ul>
+
+              <li>
+                <a href={'https://www.facebook.com/sharer/sharer.php?u' + baseURL + pageContext.slug } className="facebook" target="_blank" rel="noopener noreferrer">facebook</a>
+              </li>
+              
+              <li>
+                <a href={
+                  'https://www.twitter.com/share?url='
+                  + baseURL
+                  + pageContext.slug
+                  + '&text='
+                  + post.frontmatter.title
+                  + '&via='
+                  + 'nicofinance.blog'
+                  } className="twitter" target="_blank" rel="noopener noreferrer">twitter</a>
+              </li>
+
+              <li>
+                <a href={'https://www.linkedin.com/shareArticle?=' + baseURL + pageContext.slug } className="linkedin" target="_blank" rel="noopener noreferrer">linkedIn</a>
+              </li>
+
+            </ul>
+          </div> */}
 
         </Container>
 
