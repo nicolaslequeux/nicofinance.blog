@@ -20,6 +20,6 @@ Bien peu de personnes ont pleinement conscience que toute somme d'argent correct
 
 Bien sûr, pour la plupart des gens, y compris moi-même, cela nécessitera d'épargner une part substantielle de ses revenus et de les investir pour les faire fructifier, suffisamment longtemps.
 
-Si vous débutez votre effort d'épargne assez tôt, vous allez alors bénéficier de ce que l'on appelle les intérêts composés. Et ce qui peut paraître à première vue comme un objectif d'épargne difficile, va pouvoir se réaliser avec assez peu d’effort.
+Si vous débutez votre effort d'épargne assez tôt, vous allez alors bénéficier de ce que l'on appelle les intérêts composés. Et ce qui peut paraître à première vue comme un objectif d'épargne difficile à atteindre, va pouvoir se réaliser avec assez peu d’effort.
 
 <!-- **A retenir : Une vie libérée de la contrainte métro-boulot-dodo passe par l'accumulation d'une épargne financière qui va permettre de générer un revenu financier permanent. Si ce revenu couvre vos dépenses annuelles, vous êtes alors financièrement autonome et n'avez plus à dépendre d'un salaire mensuel pour vivre au quotidien, vous êtes libre de vivre comme vous le souhaitez.** -->
