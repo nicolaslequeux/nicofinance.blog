@@ -1,9 +1,11 @@
 ---
 date: 2020-01-01
-title: Memo Markdown
+title: Mémo Markdown
 cover: "cover.jpg"
 published: true
 ---
+
+Language Markdown
 
 # This is the highest level of the text.
 ## This is the second highest level of the text.
@@ -49,11 +51,6 @@ The lobby code is `weloveesports`!
 
 ### shopping list pt 1
 
-* allen wrenches
-* gerbil feeders
-* toilet seats
-* electric heaters
-* Trash compactors
 * juice extractor
 * shower rods and water meters
 ***
@@ -66,7 +63,6 @@ The lobby code is `weloveesports`!
 ### shopping list pt 3
 - [x] BB pellets
 - [ ] rubber mallets
-- [ ] fans and dehumidifiers
 ***
 ### shopping list pt 4
 * Picture hangers

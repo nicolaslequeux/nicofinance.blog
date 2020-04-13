@@ -24,7 +24,7 @@ La stratégie repose sur l’exploitation des cycles économiques qui sont au no
 
 Chacun de ces cycles économiques va apparaître, dans n’importe quel ordre et pour des durées variables.
 
-**L'économie est soit en expansion, nous connaissons la prospérité, soit en contraction, nous sommes alors en période de récession.**
+**L'économie est soit en expansion et nous connaissons la prospérité, soit en contraction et nous sommes alors en période de récession.**
 
 Relativement à cette expansion-contraction de l'économie, la quantité de monnaie en circulation va elle aussi évoluer.
 

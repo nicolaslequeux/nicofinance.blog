@@ -1,8 +1,8 @@
 module.exports = {
-  pathPrefix: "/nicofinanceblog",
+  //pathPrefix: "/nicofinanceblog",
   siteMetadata: {
     title: `nicoFinanceBlog`,
-    description: `Conseils pour générer des revenus financiers et devenir financièrement autonome`,
+    description: `Partage d'expérience dans la gestion d'une portefeuille financier, pour qui souhaiterait générer des revenus complémentaires, devenir financièrement autonome ou plus simplement préserver son épargne dans les crises financières.`,
     author: `Nicolas`,
   },
   plugins: [
@@ -77,20 +77,22 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `gatsby-starter-react-bootstrap`,
-    //     short_name: `react-bootstrap`,
-    //     start_url: `/`,
-    //     background_color: `#20232a`,
-    //     theme_color: `#20232a`,
-    //     display: `minimal-ui`,
-    //   },
-    
-    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `nicofiance.blog`,
+        short_name: `nicofiance.blog`,
+        start_url: `/`,
+        background_color: `#20232a`,
+        theme_color: `#20232a`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+      },
+    },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`
+    
   ],
 }
