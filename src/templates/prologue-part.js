@@ -2,6 +2,7 @@ import React from "react"
 import { Container } from "react-bootstrap"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default ({ data, pageContext }) => {
   
@@ -11,6 +12,8 @@ export default ({ data, pageContext }) => {
   return (
 
     <Layout id="top">
+
+      <SEO title="nicofinance.blog - Prologue" description={chapitre.frontmatter.title} />
 
       <Container style={{ maxWidth: "700px", margin: "auto" }}>
 

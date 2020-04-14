@@ -50,10 +50,15 @@ const ListPosts = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Blog" />
+
+      <SEO title="Blog Liste" />
+      
       <Container style={{ maxWidth: "700px", margin: "auto" }}>
+      
         <h2 className="text-center pt-4 pb-3">Liste des posts</h2>
+      
         <div style={{ width: "100%", margin: "auto"}}>
+      
           { posts.map((post) => {
               return (
                 <div key={post.node.id} className="py-1">

@@ -2,6 +2,7 @@ import React from "react"
 import { Container } from "react-bootstrap"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { DiscussionEmbed } from "disqus-react"
 
 export default ({ data, pageContext }) => {
@@ -21,6 +22,12 @@ export default ({ data, pageContext }) => {
   return (
 
     <Layout id="top">
+
+      <SEO
+        title="nicofinance.blog - Blog"
+        description={post.frontmatter.title}
+        image={post.frontmatter.cover.publicURL}
+      />
 
       <Container style={{ maxWidth: "700px", margin: "auto" }}>
 
@@ -133,6 +140,7 @@ export const queryPost = graphql`
         date(formatString: "DD MMMM YYYY", locale: "fr")
         title
         cover {
+          publicURL
           childImageSharp {
             fluid(maxWidth: 125, fit: COVER) {
               ...GatsbyImageSharpFluid

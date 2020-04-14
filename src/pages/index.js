@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
 
     <Layout pageInfo={{ pageName: "index" }}>
 
-      <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
+      <SEO title="nicofinance.blog" />
 
       <Hero/>
 

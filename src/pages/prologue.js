@@ -19,6 +19,7 @@ const ListParts = ({ data }) => {
 
   return (
     <Layout>
+      
       <SEO title="Prologue" />
 
       <Container style={{ maxWidth: "700px", margin: "auto" }}>

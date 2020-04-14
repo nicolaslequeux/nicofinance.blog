@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 export default ({ data }) => (
 
   <Layout>
-    <SEO title="Nicolas Lequeux" />
+    <SEO title="Qui suis-je?" />
     <Container style={{ maxWidth: "700px", margin: "auto" }}>
       <h2 className="text-center p-4">Qui suis-je ?</h2>
       <Img

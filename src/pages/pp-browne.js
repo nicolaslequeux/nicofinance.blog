@@ -36,7 +36,7 @@ class SecondPage extends Component {
 
   <Layout>
 
-    <SEO title="Portefeuille Permanent" />
+    <SEO title="Portefeuille Permanent Browne" />
 
     <Container style={{ maxWidth: "700px", margin: "auto" }}>
     

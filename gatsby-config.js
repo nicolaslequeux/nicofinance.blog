@@ -1,10 +1,16 @@
 module.exports = {
+
   //pathPrefix: "/nicofinanceblog",
   siteMetadata: {
-    title: `nicoFinanceBlog`,
+    title: `nicofinance.blog`,
+    titleTemplate: `nicofinance.blog`,
     description: `Partage d'expérience dans la gestion d'une portefeuille financier, pour qui souhaiterait générer des revenus complémentaires, devenir financièrement autonome ou plus simplement préserver son épargne dans les crises financières.`,
     author: `Nicolas`,
+    url: "https://www.nicofinance.blog",
+    twitterUsername: "@nicofinanceblog",
+    image: "/meta-img.png"
   },
+  
   plugins: [
 
     `gatsby-plugin-react-helmet`,
