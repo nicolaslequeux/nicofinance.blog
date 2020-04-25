@@ -20,8 +20,8 @@ class SecondPage extends Component {
       <iframe
         src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLxbXq7cxo596eRQ5ACZm2XAPHV9xGUR4G_luLTgmLtof4N_XFgFDyBSgGF3WemptwywXL4mP740Aa/pubhtml?gid=1224187303&amp;single=true&amp;widget=true&amp;headers=false"
         title="PP-Calcul"
-        width="660"
-        height="400"
+        width="640"
+        height="600"
         style={{
         }}
       ></iframe>

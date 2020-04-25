@@ -51,15 +51,20 @@ const IndexPage = ({ data }) => {
             <div>
               <Col className="text-center p-3">
                 <Card style={{ width: "18rem" }}>
-                  <Card.Header as="h3">GBM</Card.Header>
+                  <Card.Header as="h3">GEM-GBM</Card.Header>
                   <Card.Body>
                   <FaSignal size={64}/>
                     <Card.Text>
                       Global Balanced Momentum
                     </Card.Text>
-                    <a href="https://nicolaslequeux.shinyapps.io/nlx-gbm-input/" target="_blank" rel="noopener noreferrer">
-                      <Button variant="outline-warning">Simuler</Button>
-                    </a>
+                    <div className="d-flex justify-content-around">
+                      <a href="/gem-gbm">
+                          <Button variant="outline-info">Comprendre</Button>
+                      </a>
+                      <a href="https://nicolaslequeux.shinyapps.io/nlx-gbm-input/" target="_blank" rel="noopener noreferrer">
+                        <Button variant="outline-warning">Simuler</Button>
+                      </a>
+                    </div>
                   </Card.Body>
                 </Card>    
               </Col>
