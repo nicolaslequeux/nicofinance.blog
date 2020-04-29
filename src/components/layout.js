@@ -3,11 +3,8 @@ import Navbar from "./navBar"
 import Footer from "./footer"
 
 export default ({ children }) => (
-
   <>
-
     <Navbar />
-  
       <main
         style={{
           marginBottom: "50px",
@@ -16,9 +13,6 @@ export default ({ children }) => (
       >
         {children}
       </main>
-
-
     <Footer />
-
   </>
 )

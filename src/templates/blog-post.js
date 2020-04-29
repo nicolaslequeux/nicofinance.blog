@@ -23,20 +23,22 @@ export default ({ data, pageContext }) => {
 
     <Layout id="top">
 
-      <SEO
+      <SEO>
         title="nicofinance.blog - Blog"
         description={post.frontmatter.title}
         image={post.frontmatter.cover.publicURL}
-      />
+      </SEO>
 
       <Container style={{ maxWidth: "700px", margin: "auto" }}>
 
         <div className="py-4 text-center">
+
           <h2>{post.frontmatter.title}</h2>
+          
           <p>{post.frontmatter.date}</p>
-          <hr></hr>
+          
             <div dangerouslySetInnerHTML={{ __html: post.html }} className="text-justify" />
-          <hr></hr>
+          
         </div>
 
         <ul
@@ -53,8 +55,8 @@ export default ({ data, pageContext }) => {
               <Link
                 to={previous.fields.slug}
                 rel="prev"
-                style={{textDecoration: "none"}}
-                className="text-center text-dark">
+                style={{textDecoration: ""}}
+                className="text-center font-italic">
                 ← {previous.frontmatter.title}
               </Link>
             )}
@@ -63,8 +65,8 @@ export default ({ data, pageContext }) => {
             <Link
               to="/blog"
               rel="blog"
-              style={{textDecoration: "none"}}
-              className="text-center text-dark">
+              style={{textDecoration: ""}}
+              className="text-center font-italic">
               Retour à la liste
             </Link>
           </li>
@@ -73,8 +75,8 @@ export default ({ data, pageContext }) => {
               <Link
                 to={next.fields.slug}
                 rel="next"
-                style={{textDecoration: "none"}}
-                className="text-center text-dark">
+                style={{textDecoration: ""}}
+                className="text-center font-italic">
                 {next.frontmatter.title} →
               </Link>
             )}
@@ -82,7 +84,6 @@ export default ({ data, pageContext }) => {
         </ul>
 
         <br></br>
-        <hr></hr>
         
         <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
 
