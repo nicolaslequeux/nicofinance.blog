@@ -28,11 +28,10 @@ class gemGbm extends Component {
 
     setTimeout(() => {
       this.setState({ showSpinner: false});
-    }, 7000);
+    }, 5000);
 
     const cssSpinner = this.state.showSpinner ? 'block' : 'none';
-    const cssTable = this.state.showSpinner ? 'none' : 'block';
-
+ 
     return(
 
       <Layout>
@@ -42,13 +41,11 @@ class gemGbm extends Component {
           <h2 className="text-center pt-4 pb-3">Global Equity/Balanced Momentum</h2>
           <p className="text-center">Feuille de calcul Google Sheet - Performances à 1-12-36 mois</p>
         
-          <div className="text-center">
-            <div style={{ display: cssSpinner }}>
+          <div className="text-center" style={{ position: "relative" }}>
+            <div style={{ display: cssSpinner, position: "absolute", top: "100px", left: "320px" }}>
               <Spinner />
             </div>
-            <div style={{ display: cssTable }}>
-              { table }
-            </div>
+            { table }
           </div>
 
           <br></br>
