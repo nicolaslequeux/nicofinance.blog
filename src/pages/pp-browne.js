@@ -9,29 +9,16 @@ class ppBrowne extends Component {
   constructor(props) {
     super(props)
     this.state = ({
-      showSpinner: true
+      spinner: true
     })
   }
+  
+  hideSpinner = () => {
+    this.setState({spinner: false});
+  };
 
   render() {
 
-    const ppIFrame = (
-      <iframe
-        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLxbXq7cxo596eRQ5ACZm2XAPHV9xGUR4G_luLTgmLtof4N_XFgFDyBSgGF3WemptwywXL4mP740Aa/pubhtml?gid=1224187303&amp;single=true&amp;widget=true&amp;headers=false"
-        title="PP-Calcul"
-        width="640"
-        height="600"
-        style={{
-        }}
-      ></iframe>
-    );
-  
-  setTimeout(() => {
-    this.setState({ showSpinner: false});
-  }, 5000);
-
-  const cssSpinner = this.state.showSpinner ? 'block' : 'none';
-  
   return(
 
     <Layout>
@@ -42,10 +29,19 @@ class ppBrowne extends Component {
         <p className="text-center">Feuille de calcul Google Sheet - Performances à 1-12-36 mois</p>
         
         <div className="text-center" style={{ position: "relative" }}>
-          <div style={{ display: cssSpinner, position: "absolute", top: "100px", left: "320px" }}>
-            <Spinner />
+
+          <div style={{ position: "absolute", top: "100px", left: "320px" }}>
+            { this.state.spinner ? <Spinner /> : null }
           </div>
-          { ppIFrame }
+
+          <iframe
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLxbXq7cxo596eRQ5ACZm2XAPHV9xGUR4G_luLTgmLtof4N_XFgFDyBSgGF3WemptwywXL4mP740Aa/pubhtml?gid=1224187303&amp;single=true&amp;widget=true&amp;headers=false"
+            title="PP-Calcul"
+            width="640"
+            height="600"
+            onLoad={this.hideSpinner}
+          ></iframe>
+
         </div>
 
         <br></br>
