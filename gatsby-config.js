@@ -13,13 +13,13 @@ module.exports = {
   
   plugins: [
 
-    {
-      resolve: "gatsby-plugin-google-analytics",
-        options: {
-           trackingId: "G-8EE8WL2B96",
-           head: true,
-        }
-    },
+    // {
+    //   resolve: "gatsby-plugin-google-analytics",
+    //     options: {
+    //        trackingId: "G-8EE8WL2B96",
+    //        head: true,
+    //     }
+    // },
 
     `gatsby-plugin-react-helmet`,
 

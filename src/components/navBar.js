@@ -12,6 +12,7 @@ export default () => (
         <NavDropdown title="Stratégies" id="basic-nav-dropdown">
           <NavDropdown.Item href="/pp-browne">PP-Browne</NavDropdown.Item>
           <NavDropdown.Item href="/gem-gbm">GEM/GBM</NavDropdown.Item>
+          <NavDropdown.Item href="/vaa">VAA</NavDropdown.Item>
         </NavDropdown>
         {/* <Nav.Link href="/pp-browne">PP-Browne</Nav.Link>         */}
         <Nav.Link href="/prologue">Prologue</Nav.Link>

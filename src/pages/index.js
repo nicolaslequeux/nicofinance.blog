@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Hero from "../components/hero"
 import { Container, Row, Col, Button, Card } from "react-bootstrap"
 import { FaSignal } from "react-icons/fa"
+import { Helmet } from "react-helmet"
 
 import BlogCard from "../components/card"
 
@@ -17,6 +18,20 @@ const IndexPage = ({ data }) => {
   return (
 
     <Layout pageInfo={{ pageName: "index" }}>
+
+      <Helmet>
+
+       {/* Global site tag (gtag.js) - Google Analytics */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-8EE8WL2B96"></script>
+      <script>{`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());  
+        gtag('config', 'G-8EE8WL2B96');
+      `}
+      </script>
+
+      </Helmet>
 
       <SEO title="nicofinance.blog" />
 
@@ -79,9 +94,14 @@ const IndexPage = ({ data }) => {
                     <Card.Text>
                       Vigilant Asset Allocation
                     </Card.Text>
-                    <a href="https://nicolaslequeux.shinyapps.io/nlx-vaa-input/" target="_blank" rel="noopener noreferrer">
-                      <Button variant="outline-warning">Simuler</Button>
-                    </a>
+                    <div className="d-flex justify-content-around">
+                      <a href="/vaa">
+                          <Button variant="outline-info">Comprendre</Button>
+                      </a>
+                      <a href="https://nicolaslequeux.shinyapps.io/nlx-vaa-input/" target="_blank" rel="noopener noreferrer">
+                        <Button variant="outline-warning">Simuler</Button>
+                      </a>
+                    </div>                  
                   </Card.Body>
                 </Card>    
               </Col>
