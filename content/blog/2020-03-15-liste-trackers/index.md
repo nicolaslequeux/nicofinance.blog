@@ -1,6 +1,6 @@
 ---
 date: 2020-03-15
-title: Liste de trackers adaptés
+title: Liste de trackers européens
 cover: "./cover.jpg"
 published: true
 ---
@@ -8,10 +8,6 @@ published: true
 ![cover](./cover.jpg)
 
 Voici une liste de trackers accessibles aux investisseurs européens pour investir sur les stratégies présentées dans ce blog. Les trackers sont appelés ETF aux USA.
-
-Pour sélectionner les trackers européns, je recommande [www.justetf.com](https://www.justetf.com/en/).
-
-Pour sélectionner les ETF US, [www.etf.com](https://www.etf.com).
 <br></br>
 
 <!-- TABLE TRACKERS -->
@@ -207,13 +203,17 @@ Pour sélectionner les ETF US, [www.etf.com](https://www.etf.com).
 
 <br></br>
 
-J'utilise les ETF américains pour les simulations car ils offrent les historiques de cours les plus longs. Malheureusement ses ETF ne sont plus disponibles en Europe pour le petit porteur, depuis l’entrée en vigueur de la législation [MIFID II](https://www.esma.europa.eu/policy-rules/mifid-ii-and-mifir) en 2018.  
+Pour sélectionner les trackers européns, je recommande le site [www.justetf.com](https://www.justetf.com/en/).
 
-Cette nouvelle législation européenne est une véritable usine à gaz, parfaitement scandaleuse. Sous des prétextes fallacieux de protéger l’investisseur individuel, ce qui n’est absolument pas le cas, elle protège les gérants de fonds européens de la concurrence des gérants de fonds US sur le marché des investisseurs individuels. Il faut savoir qu’à produit équivalent, les trackers européens sont bien plus cher que leurs équivalents américains. Le surcoût repose une fois de plus sur le petit investisseur individuel. Bien évidement cette contrainte législative ne s’applique pas si vous êtes un investisseur professionnel ou un investisseur particulier avec un capital important!  
+J'utilise les ETF américains pour les simulations car ils offrent les historiques de cours les plus longs. Pour sélectionner les ETF américains, le site [www.etf.com](https://www.etf.com) est très pratique.
+
+Malheureusement ses ETF US ne sont plus disponibles en Europe pour le petit porteur, depuis l’entrée en vigueur de la législation [MIFID II](https://www.esma.europa.eu/policy-rules/mifid-ii-and-mifir) en 2018.  
+
+Cette nouvelle législation européenne est une véritable usine à gaz, parfaitement scandaleuse. Sous des prétextes fallacieux de protéger l’investisseur individuel, ce qui n’est absolument pas le cas, elle protège les gérants de fonds européens de la concurrence des gérants de fonds US sur le marché des investisseurs individuels. Il faut savoir qu’à produit équivalent, les trackers européens sont bien plus chers que leurs équivalents américains. Le surcoût repose une fois de plus sur le petit investisseur individuel. Comme souvent, cette contrainte législative ne s’applique pas si vous êtes un investisseur professionnel ou un investisseur particulier avec un capital important!  
 
 Je vous conseille de privilégier les trackers qui ont les volumes d'échanges les plus élevés et les frais de gestion les plus faibles.
 
-A titre d'exemple, dans le cas d’un investissement sur le Portefeuille Permanent de Harry Browne en version US, les trackers suivants sont bien appropriés:
+A titre d'exemple, dans le cas d’un investissement sur le Portefeuille Permanent de Harry Browne en version US, les trackers suivants sont bien adaptés:
 - iShares Core S&P 500
 - iShares USD Treasury Bond +20y
 - Invesco Physical Gold A
@@ -221,9 +221,9 @@ A titre d'exemple, dans le cas d’un investissement sur le Portefeuille Permane
 
 Ces trackers ont respectivement des frais de gestion annuel de (3x0,07%+0,19%)/4 = 0,10%
 
-Soient 0,10% de frais de gestion annuel pour la globalité du portefeuille.
+Soient seulement 0,10% de frais de gestion annuel pour la globalité du portefeuille permanent de Harry Browne!
 
-Toutes les banques ne proposent pas ces trackers pour la simple et bonne raison qu'ils les jugent pas assez rentables pour eux. Il existe cependant des trackers équivalents chez Amundi (Crédit Agricole) ou BNP Paribas, mais au double de frais:
+Toutes les banques ne proposent pas ces trackers pour la simple et bonne raison qu'ils ne les jugent pas assez rentables pour eux. Il existe cependant des trackers équivalents chez Amundi (Crédit Agricole) ou BNP Paribas, mais au double de frais:
 - iShares Core S&P 500 : 0,07% par an 
 - Amundi et BNP S&P 500 : 0,15% par an
 

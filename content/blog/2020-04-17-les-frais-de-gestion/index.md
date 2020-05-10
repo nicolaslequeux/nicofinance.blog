@@ -7,6 +7,6 @@ published: true
 
 ![cover](./cover.jpg)
 
-En cours d'écriture...
+Très prochainement...
 
 <br></br>
