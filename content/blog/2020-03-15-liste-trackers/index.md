@@ -200,16 +200,15 @@ Voici une liste de trackers accessibles aux investisseurs européens pour invest
   </tbody>
   </table></div>
 </div>
-
 <br></br>
 
-Pour sélectionner les trackers européns, je recommande le site [www.justetf.com](https://www.justetf.com/en/).
+Pour sélectionner les meilleurs trackers européns, je recommande le site [www.justetf.com](https://www.justetf.com/en/).
 
-J'utilise les ETF américains pour les simulations car ils offrent les historiques de cours les plus longs. Pour sélectionner les ETF américains, le site [www.etf.com](https://www.etf.com) est très pratique.
+J'utilise les ETF américains pour les simulations car ils offrent les historiques de cours les plus longs et les sélectionner sur le site [www.etf.com](https://www.etf.com).
 
-Malheureusement ses ETF US ne sont plus disponibles en Europe pour le petit porteur, depuis l’entrée en vigueur de la législation [MIFID II](https://www.esma.europa.eu/policy-rules/mifid-ii-and-mifir) en 2018.  
+Malheureusement ces ETF US ne sont plus disponibles en Europe pour les petits investisseurs privés, depuis l’entrée en vigueur de la législation [MIFID II](https://www.esma.europa.eu/policy-rules/mifid-ii-and-mifir) en 2018.  
 
-Cette nouvelle législation européenne est une véritable usine à gaz, parfaitement scandaleuse. Sous des prétextes fallacieux de protéger l’investisseur individuel, ce qui n’est absolument pas le cas, elle protège les gérants de fonds européens de la concurrence des gérants de fonds US sur le marché des investisseurs individuels. Il faut savoir qu’à produit équivalent, les trackers européens sont bien plus chers que leurs équivalents américains. Le surcoût repose une fois de plus sur le petit investisseur individuel. Comme souvent, cette contrainte législative ne s’applique pas si vous êtes un investisseur professionnel ou un investisseur particulier avec un capital important!  
+Cette nouvelle législation européenne est une véritable usine à gaz. Sous des prétextes fallacieux de vouloir en autre, protéger l’investisseur individuel, ce qui n’est pas le cas, elle protège les gérants de fonds européens de la concurrence des gérants de fonds US sur le marché des investisseurs individuels. Il faut savoir qu’à produit équivalent, les trackers européens sont bien plus chers que leurs équivalents américains. Le surcoût repose une fois de plus sur le petit investisseur individuel. Cette contrainte législative arbitraire et scandaleuse ne s’applique pas si vous êtes un investisseur professionnel ou un investisseur particulier avec un capital important!
 
 Je vous conseille de privilégier les trackers qui ont les volumes d'échanges les plus élevés et les frais de gestion les plus faibles.
 
@@ -221,9 +220,9 @@ A titre d'exemple, dans le cas d’un investissement sur le Portefeuille Permane
 
 Ces trackers ont respectivement des frais de gestion annuel de (3x0,07%+0,19%)/4 = 0,10%
 
-Soient seulement 0,10% de frais de gestion annuel pour la globalité du portefeuille permanent de Harry Browne!
+Soient seulement 0,10% de frais par an pour la globalité du portefeuille permanent de Harry Browne!
 
-Toutes les banques ne proposent pas ces trackers pour la simple et bonne raison qu'ils ne les jugent pas assez rentables pour eux. Il existe cependant des trackers équivalents chez Amundi (Crédit Agricole) ou BNP Paribas, mais au double de frais:
+Tous les établissements financiers ne proposent pas ces trackers car ils les jugent pas assez rentables pour eux. Il existe cependant parfois des trackers équivalents comme chez Amundi (Crédit Agricole) ou BNP Paribas, mais à des tarifs plus élevés, bien qu'encore raisonnables:
 - iShares Core S&P 500 : 0,07% par an 
 - Amundi et BNP S&P 500 : 0,15% par an
 
