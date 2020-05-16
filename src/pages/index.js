@@ -43,19 +43,19 @@ const IndexPage = ({ data }) => {
 
             <div>
               <Col className="text-center p-3">
-                <Card style={{ width: "18rem" }}>
-                  <Card.Header as="h3">PP Harry Browne</Card.Header>
+                <Card style={{ width: "17rem" }}>
+                  <Card.Header as="h3">PP Browne</Card.Header>
                   <Card.Body>
                   <FaSignal size={64}/>
                     <Card.Text>
-                      Permanent Portfolio
+                      Portefeuille Permanent
                     </Card.Text>
                     <div className="d-flex justify-content-around">
-                      <a href="/pp-browne">
+                      {/* <a href="/pp-browne">
                         <Button variant="outline-info">Comprendre</Button>
-                      </a>
+                      </a> */}
                       <a href="https://nicolaslequeux.shinyapps.io/nlx-pp-input/" target="_blank" rel="noopener noreferrer">
-                        <Button variant="outline-warning">Simuler</Button>
+                        <Button variant="outline-info">Simuler</Button>
                       </a>
                     </div>
                   </Card.Body>
@@ -65,7 +65,7 @@ const IndexPage = ({ data }) => {
 
             <div>
               <Col className="text-center p-3">
-                <Card style={{ width: "18rem" }}>
+                <Card style={{ width: "17rem" }}>
                   <Card.Header as="h3">GEM-GBM</Card.Header>
                   <Card.Body>
                   <FaSignal size={64}/>
@@ -73,11 +73,11 @@ const IndexPage = ({ data }) => {
                       Global Balanced Momentum
                     </Card.Text>
                     <div className="d-flex justify-content-around">
-                      <a href="/gem-gbm">
+                      {/* <a href="/gem-gbm">
                           <Button variant="outline-info">Comprendre</Button>
-                      </a>
+                      </a> */}
                       <a href="https://nicolaslequeux.shinyapps.io/nlx-gbm-input/" target="_blank" rel="noopener noreferrer">
-                        <Button variant="outline-warning">Simuler</Button>
+                        <Button variant="outline-info">Simuler</Button>
                       </a>
                     </div>
                   </Card.Body>
@@ -87,7 +87,7 @@ const IndexPage = ({ data }) => {
 
             <div>
               <Col className="text-center p-3">
-                <Card style={{ minWidth: '18rem' }}>
+                <Card style={{ minWidth: '17rem' }}>
                   <Card.Header as="h3">VAA</Card.Header>
                   <Card.Body>
                   <FaSignal size={64}/>
@@ -95,11 +95,11 @@ const IndexPage = ({ data }) => {
                       Vigilant Asset Allocation
                     </Card.Text>
                     <div className="d-flex justify-content-around">
-                      <a href="/vaa">
+                      {/* <a href="/vaa">
                           <Button variant="outline-info">Comprendre</Button>
-                      </a>
+                      </a> */}
                       <a href="https://nicolaslequeux.shinyapps.io/nlx-vaa-input/" target="_blank" rel="noopener noreferrer">
-                        <Button variant="outline-warning">Simuler</Button>
+                        <Button variant="outline-info">Simuler</Button>
                       </a>
                     </div>                  
                   </Card.Body>

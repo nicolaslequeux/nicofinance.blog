@@ -8,7 +8,7 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   color: inherit;
   &:hover {
-    color: red;
+    color: #18A2B8;
     text-decoration: none;
   }
   &:visisted {
@@ -30,9 +30,9 @@ const card = ({ title, date, excerpt, slug, timeToRead, cover }) => {
           <StyledLink to={slug}> 
             <h4 className="font-weight-bold mb-0">{title}</h4>
             <small className="font-italic">Publié {date}</small>
-            <small className="font-italic"> &#9679; Temps de lecture {timeToRead} {timeToRead > 1 ? "minutes" : "minute"}</small>
+            <small className="font-italic"> &#183; Temps de lecture {timeToRead} {timeToRead > 1 ? "minutes" : "minute"}</small>
+            <p>{excerpt}</p>
           </StyledLink>
-          <p>{excerpt}</p>
         </div>
       </li> 
     </ul>

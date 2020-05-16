@@ -10,7 +10,7 @@ const Lien = styled.a`
   padding-bottom: 5px;
   color: black;
   &:hover {
-    color: red;
+    color: #18A2B8;
     text-decoration: none;
   }
   &:visisted {
@@ -44,16 +44,27 @@ const Liens = () => (
         <Card.Header as="h5">Taux</Card.Header>
         <Card.Body>
           <Card.Text>
+
             <Lien href="https://fred.stlouisfed.org/series/DGS30" target="_blank" rel="noopener noreferrer">30-Year Treasury Constant Maturity Rate (DGS30)</Lien>
+            
             <Lien href="https://fred.stlouisfed.org/series/DGS10" target="_blank" rel="noopener noreferrer">10-Year Treasury Constant Maturity Rate (DGS10)</Lien>
+            
             <Lien href="https://fred.stlouisfed.org/series/DGS2" target="_blank" rel="noopener noreferrer">2-Year Treasury Constant Maturity Rate (DGS2)</Lien>
+            
             <Lien href="https://fred.stlouisfed.org/series/DGS1" target="_blank" rel="noopener noreferrer">1-Year Treasury Constant Maturity Rate (DGS1)</Lien>
-            <Lien href="https://www.bloomberg.com/markets/rates-bonds/government-bonds/us" target="_blank" rel="noopener noreferrer">US Rates</Lien>
+            
+            <Lien href="https://www.bloomberg.com/markets/rates-bonds/government-bonds/us" target="_blank" rel="noopener noreferrer">Bloomberg - US Rates</Lien>
+            
             <Lien href="https://fred.stlouisfed.org/series/T10Y3M" target="_blank" rel="noopener noreferrer">10-Year Treasury Constant Maturity Minus 3-Month Treasury Constant Maturity</Lien>
+            
             <Lien href="https://fred.stlouisfed.org/series/USSLIND" target="_blank" rel="noopener noreferrer"></Lien>
+            
             <Lien href="https://fred.stlouisfed.org/series/T10Y2Y" target="_blank" rel="noopener noreferrer">10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity</Lien>
+            
             <Lien href="https://fred.stlouisfed.org/graph/?g=j3d3" target="_blank" rel="noopener noreferrer">Germany 10Y Government Bond - Italy 10Y Government Bond</Lien>
-            <Lien href="https://www.bloomberg.com/quote/GBTPGR10:IND" target="_blank" rel="noopener noreferrer">Italy Generic Govt 10Y Yield</Lien>
+            
+            <Lien href="https://www.bloomberg.com/markets/rates-bonds" target="_blank" rel="noopener noreferrer">Bloomberg - Foreign Rates</Lien>
+          
           </Card.Text>
         </Card.Body>
       </Card>
