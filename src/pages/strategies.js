@@ -49,7 +49,7 @@ class strategies extends Component {
         <br></br>
 
         {/* STRATEGIE #2 */}
-        <h5 className="text-center pb-3">Global Equity/Balanced Momentum</h5>
+        <h4 className="text-center pb-3">Global Equity/Balanced Momentum</h4>
         <div className="text-center" style={{ position: "relative" }}>
           <div style={{ position: "absolute", top: "100px", left: "320px" }}>
             { this.state.spinner ? <Spinner /> : null }
@@ -66,7 +66,7 @@ class strategies extends Component {
         <br></br>
 
         {/* STRATEGIE #3 */}
-        <h5 className="text-center pb-3">Vigilant Asset Allocation</h5>
+        <h4 className="text-center pb-3">Vigilant Asset Allocation</h4>
         <div className="text-center" style={{ position: "relative" }}>
           <div style={{ position: "absolute", top: "100px", left: "320px" }}>
             { this.state.spinner ? <Spinner /> : null }
