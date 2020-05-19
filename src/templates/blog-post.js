@@ -30,15 +30,10 @@ export default ({ data, pageContext }) => {
       </SEO>
 
       <Container style={{ maxWidth: "700px", margin: "auto" }}>
-
         <div className="py-4 text-center">
-
           <h2>{post.frontmatter.title}</h2>
-          
           <p>{post.frontmatter.date}</p>
-          
-            <div dangerouslySetInnerHTML={{ __html: post.html }} className="text-justify" />
-          
+          <div dangerouslySetInnerHTML={{ __html: post.html }} className="text-justify" />
         </div>
 
         <ul
@@ -61,7 +56,7 @@ export default ({ data, pageContext }) => {
               </Link>
             )}
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/blog"
               rel="blog"
@@ -69,7 +64,7 @@ export default ({ data, pageContext }) => {
               className="text-center font-italic">
               Retour à la liste
             </Link>
-          </li>
+          </li> */}
           <li>
             {next && (
               <Link

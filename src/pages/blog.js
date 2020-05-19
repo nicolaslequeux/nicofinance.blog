@@ -127,7 +127,7 @@ export const queryAll = graphql`
               date(formatString: "DD MMMM YYYY", locale: "fr")
               cover {
                 childImageSharp {
-                  fluid(maxWidth: 125, fit: COVER) {
+                  fluid(maxWidth: 200, fit: COVER) {
                     ...GatsbyImageSharpFluid
                   }
                 }
