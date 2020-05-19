@@ -1,11 +1,13 @@
-import React from "react"
-import { Container } from "react-bootstrap"
+import React, { useState } from "react"
+import { Container, Button } from "react-bootstrap"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { DiscussionEmbed } from "disqus-react"
 
 export default ({ data, pageContext }) => {
+
+  const [showDisqus, setShowDisqus] = useState(false)
   
   const post = data.markdownRemark
   const { previous, next } = pageContext
@@ -18,6 +20,8 @@ export default ({ data, pageContext }) => {
     title: post.frontmatter.title,
     url: baseURL + pageContext.slug
   };
+
+  const showDisqusHandler = () => setShowDisqus(true)
 
   return (
 
@@ -36,6 +40,12 @@ export default ({ data, pageContext }) => {
           <div dangerouslySetInnerHTML={{ __html: post.html }} className="text-justify" />
         </div>
 
+        { showDisqus
+          ? <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+          : <Button variant="outline-secondary" block onClick={showDisqusHandler}>Commenter...</Button>
+        }
+        <br></br>
+
         <ul
             style={{
               display: `flex`,
@@ -51,7 +61,7 @@ export default ({ data, pageContext }) => {
                 to={previous.fields.slug}
                 rel="prev"
                 style={{textDecoration: ""}}
-                className="text-center font-italic">
+                className="text-center font-italic font-weight-light">
                 ← {previous.frontmatter.title}
               </Link>
             )}
@@ -71,7 +81,7 @@ export default ({ data, pageContext }) => {
                 to={next.fields.slug}
                 rel="next"
                 style={{textDecoration: ""}}
-                className="text-center font-italic">
+                className="text-center font-italic font-weight-light">
                 {next.frontmatter.title} →
               </Link>
             )}
@@ -80,7 +90,6 @@ export default ({ data, pageContext }) => {
 
         <br></br>
         
-        <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
 
         {/* <h3 className="text-center">
             Share this post
@@ -138,7 +147,7 @@ export const queryPost = graphql`
         cover {
           publicURL
           childImageSharp {
-            fluid(maxWidth: 125, fit: COVER) {
+            fluid(maxWidth: 200, fit: COVER) {
               ...GatsbyImageSharpFluid
             }
           }

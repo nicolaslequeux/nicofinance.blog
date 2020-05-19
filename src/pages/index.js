@@ -111,9 +111,7 @@ const IndexPage = ({ data }) => {
 
           <Row>
             <Col style={{ maxWidth: "800px", margin: "auto" }}>
-
-            <h2 className="text-center p-4">Mes derniers posts</h2>
-
+            <h3 className="text-center p-4 my-4">Mes derniers posts...</h3>
             { posts.map(({ node }) => (
               <BlogCard
                 key={node.id}
@@ -125,7 +123,6 @@ const IndexPage = ({ data }) => {
                 cover={node.frontmatter.cover.childImageSharp.fluid}
               />
             ))}
-
             </Col>
           </Row>
           
@@ -152,7 +149,7 @@ export const latestPosts = graphql`
               date(formatString: "DD MMMM YYYY", locale: "fr")
               cover {
                 childImageSharp {
-                  fluid(maxWidth: 125, fit: COVER) {
+                  fluid(maxWidth: 200, fit: COVER) {
                     ...GatsbyImageSharpFluid
                   }
                 }

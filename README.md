@@ -1,9 +1,12 @@
-# Gatsby React Bootstrap Starter
+# nicofinance.blog
 
-A GatsbyJS starter that includes
+A GatsbyJS blog with:
 
 - react-bootstrap
 - react-icons
 - SASS compiler
-- gatsby-plugin-google-analytics
+- Google analytics
 - Netlify
+- Disqus
+- MailChimp
+- Etc...

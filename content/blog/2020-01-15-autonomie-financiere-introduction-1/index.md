@@ -161,4 +161,3 @@ Aujourd'hui, il n’a jamais été aussi facile de pouvoir investir sur quasimen
 **Maintenant que nous avons défini le concept de l’autonomie financière, nous aborderons la mise en pratique dans un second post.**
 
 <hr></hr>
-

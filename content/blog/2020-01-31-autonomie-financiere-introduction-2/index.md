@@ -239,10 +239,3 @@ Reprenons tout ce que nous avons vu :
 <br></br>
 Quel chemin parcouru en seulement une petite heure de lecture !
 <br></br>
-
-Pour en savoir plus sur l'implémentation du [Portefeuille Permanent de Harry Browne](/pp-browne).
-
-<br></br>
-
-<hr></hr>
-

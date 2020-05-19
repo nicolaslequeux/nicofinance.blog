@@ -223,7 +223,3 @@ Ces trackers ont respectivement des frais de gestion annuel de ( 3 x 0,07% + 0,1
 Tous les établissements financiers ne proposent pas ces trackers car ils les jugent pas assez rentables pour eux. Il existe cependant parfois des trackers équivalents, comme chez Amundi (Crédit Agricole) ou BNP Paribas, mais à des tarifs plus élevés, bien qu'encore raisonnables:
 - iShares Core S&P 500 : 0,07% par an 
 - Amundi et BNP S&P 500 : 0,15% par an
-
-<br></br>
-
-

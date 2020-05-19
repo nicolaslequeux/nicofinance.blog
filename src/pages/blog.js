@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
+import { Form, Col }from "react-bootstrap"
 //import Img from "gatsby-image"
 
 import Card from "../components/card"
@@ -18,7 +19,7 @@ const ListPosts = ({ data }) => {
   const [showForm, setShowForm] = useState(true);
 
   const inputChangeHandler = (e) => {
-    console.log(e.currentTarget.value);
+    // console.log(e.currentTarget.value);
     setEmail(e.currentTarget.value);
   }
 
@@ -76,24 +77,25 @@ const ListPosts = ({ data }) => {
             })
           }
         </div>
-      </Container>
 
       {
         showForm ? (
           <form onSubmit={submitHandler}>
-          <div style={{ textAlign: 'center' }}>
-            <p>Si vous souhaitez être informé des nouvelles publications</p>
-            <input
-              placeholder="Adresse email"
-              name="email"
-              type="email"
-              onChange={inputChangeHandler}
-            />
-            <button type="submit">Souscrire</button>
-          </div>
-        </form>
+            <div style={{ textAlign: 'center' }}>
+              <p>Si vous souhaitez être informé des nouvelles publications</p>
+              <input
+                placeholder="Adresse email"
+                name="email"
+                type="email"
+                onChange={inputChangeHandler}
+              />
+              <button type="submit">Souscrire</button>
+            </div>
+          </form>
         ) : null
       }
+
+      </Container>
 
       <Modal show={showModal} onHide={handleClose}>
         <Modal.Body>Votre inscription a bien été pris en compte</Modal.Body>
