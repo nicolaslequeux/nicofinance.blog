@@ -18,7 +18,7 @@ C'est l'occasion de remettre en perspective la performance du Portefeuille Perma
 
 Il est amusant de voir que ces 2 actifs ont délivré une performance comparable au bout de 30 ans. Qui croyez-vous aura le mieux dormi la nuit, l'investisseur cantonné aux marchés des actions ou bien l'investisseur qui a eu un portefeuille bien diversifié?
 
-Pour rappel, le PP est composé des actifs les plus purs qui existent (actions, obligations à long terme, or). Ces actifs sont aussi les plus volatils! Néanmoins, étant bien décorrélés entre-eux, les variations des uns sont compensées par les variations des autres. Au final l'allocation du PP apparait comme un havre de paix "relative" dans une mer d'actifs agitées.
+Pour rappel, le PP est composé des actifs les plus purs qui existent (actions, obligations à long terme, or). Ces actifs sont aussi les plus volatils! Néanmoins, étant bien décorrélés entre-eux, les variations des uns sont compensées par les variations des autres. Au final l'allocation du PP apparait comme un havre de paix "relative" dans une mer d'actifs agités.
 <br></br>
 
 <p class="text-center font-weight-bold" >Evolution des classes d'actifs depuis 1993</p>
@@ -64,8 +64,12 @@ La dernière baisse violente du marché des actions a occasionné un drawdown de
 
 Enfin, pour terminer, vous avez ci-après une simulation que j'ai réalisé sur le PP avec des données de marchés mensuelles. Le drawdown mensuel (MaxDD) minimise le drawdown réel car les données journalières ne sont pas prises en compte.
 
-Malgrès son caractère approximatif, cette simulation de long terme permet de valider la résistance de l'allocation PP au travers des différentes conditions économiques qui ce sont succéder (croissance, récession, inflation, déflation).
+Malgrès son caractère approximatif, cette simulation de long terme permet de valider la résilience de l'allocation PP dans les différents environements économiques qui ce sont succédés depuis 1950 (croissance, récession, inflation, déflation).
 
 ![ppM-table-monthly.png](./ppM-table-monthly.png)
+
+Sur la période 1950-2020, [l'inflation moyenne aux USA](https://www.usinflationcalculator.com) a été de 3,4%. Le PP a donc été capable de délivrer une performance annuelle moyenne de 7,4% - 3,4% = 4% net au dessus de l'inflation.
+
+N'oubliez pas que le PP a pour objectif de préserver une épargne accumulée et de la faire fructifier de manière raisonnable et donc ne recherche pas la performance absolue. De tout évidence l'objectif a été atteint.
 
 ![ppM-graph-monthly.png](./ppM-graph-monthly.png)
