@@ -7,14 +7,18 @@ published: true
 
 ![cover](./cover.jpg)
 
-Il arrive fréquement dans mes simulations que j'ai besoin de convertir des données présentées sous forme de table en une seule colonne plus facilement manipulable.
+Il arrive fréquement lors de mes simulations que j'ai besoin de convertir des données présentées sous forme de table en une seule colonne plus facilement manipulable.
 
-A cet effet j'ai programmé un convertisseur en Javascript qui permet d'automatiser la transformation à partir d'un fichier de type xls, ods, csv.
+A cet effet j'ai programmé un convertisseur Javascript qui permet d'automatiser la transformation à partir de fichiers de types xls, ods, csv...
+<br></br>
 
-La table de départ est la suivante :
+**La table de départ doit avoir la structure suivante:**
 
-![Table Mensuelle](./table-monthly.png)
+![Table Mensuelle](./table.png)
+<br></br>
 
-Il suffit alors de copier-coller les données présentées en colonne dans votre navigateur vers votre tableur Excel, LibreOffice.
+<div class="text-center">
+  <a href="https://table-to-column/" class="btn btn-info" role="button" target="_blank" rel="noopener noreferrer">Convertisseur</a>
+</div>
 
-Et le tour est le joué!
+<br></br>
