@@ -49,8 +49,15 @@ export default () => {
         <p className="text-center">
           Transformer des données sous forme de table en colonne
         </p>
-        <p className="text-center">
-          Les nouvelles données peuvent être "copier-coller" après la conversion
+
+        <p className="text-center font-italic font-weight-light">
+          (Les nouvelles données peuvent être "copier-coller" après la conversion)
+        </p>
+
+        <p className="text-center font-weight-bold">
+          Les formats de fichiers acceptés sont xls, csv... ods
+          <br></br>
+          La table de départ doit avoir la structure suivante:
         </p>
 
         <img src={imgTable} alt="Exemple de table" style={{ width: "100%" }} />

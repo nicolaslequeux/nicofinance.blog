@@ -98,6 +98,17 @@ const Liens = () => (
         </Card.Body>
       </Card>
 
+      <Card className="my-3">
+        <Card.Header as="h5">Utilitaires</Card.Header>
+        <Card.Body>
+          <Card.Text>
+
+            <Lien href="https://nicofinance.blog/table-to-column/" target="_blank" rel="noopener noreferrer">Convertir une table de données en colonne</Lien>
+
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
       {/* <Lien href="https://us.econoday.com/byweek.asp?cust=us" target="_blank" rel="noopener noreferrer">Econoday Calendars</Lien>
       <Lien href="http://finviz.com/" target="_blank" rel="noopener noreferrer">finviz</Lien>
       <Lien href="http://www.etf.com/" target="_blank" rel="noopener noreferrer">ETF.com</Lien>
