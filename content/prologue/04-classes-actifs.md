@@ -18,7 +18,7 @@ Pour faire fructifier votre épargne et bénéficier de l’effet des intérêts
 
 **Divers**: œuvres d'art, collections, troupeau de vaches, forêts, etc.
 
-Petit exemple pour bien comprendre la différence entre une action est une obligation:
+Petit exemple pour bien comprendre la différence entre une action et une obligation:
 
 Si vous décidez d’ouvrir un restaurant ou d’investir dans le restaurant qu’un ami va ouvrir, votre investissement entre dans la catégorie des achats d’actions. Vous serez propriétaire d’une partie du restaurant et ne toucherez une rémunération que si le restaurant est rentable, sous la forme d'un dividende. D’un point de vue patrimonial, c’est le même type d’investissement, ouvrir un restaurant que d’acheter des actions McDonald’s. Dans les deux cas, vous investissez votre argent dans le capital d’une entreprise privée. Pour l’un, l’investissement se fera devant un notaire, pour l’autre depuis chez vous, en passant un ordre d’achat sur un marché financier, en l’occurrence celui de la bourse de New York pour McDonald’s.
 
