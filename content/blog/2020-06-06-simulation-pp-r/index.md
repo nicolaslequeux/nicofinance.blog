@@ -1,0 +1,117 @@
+---
+date: 2020-06-06
+title: Simuler le Portefeuille Permanent en R
+cover: "./cover.jpg"
+published: true
+---
+
+![cover](./cover.jpg)
+
+
+Simulation du Portefeuille Permanent de Harry Browne en R:
+- Version US
+- ré-équilibrage annuel chaque 31 décembre
+- Utilisation de données journalières téléchargées depuis Yahoo finance
+- Les données récentes proviennnent des ETF les plus liquides (VTI, TLT, GLD, BIL)
+- L'historique des ETF est étendu avec des fonds plus anciens qui vont jouer le role de proxy
+
+
+Utilisation des packages:
+- quantmod
+- PerformanceAnalytics
+- SIT
+- et leurs dépendances respectives
+
+<br/>
+
+<p class="text-center font-weight-bold">Code source - Nicolas Lequeux ©</p>
+
+<div style="
+  background-color: aliceblue;
+  padding: 15px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  ">  
+
+```R
+
+  ### PACKAGES
+  library(quantmod)
+  library(PerformanceAnalytics)
+  library(SIT)
+
+  ### TICKERS FOR PROXIES
+  tickers = spl('
+                STOCK=VTI+VTSMX+VFINX,
+                BOND=TLT+VUSTX,
+                GOLD=GLD+SCGDX,
+                CASH=BIL+VFISX
+                ')
+
+  ### DOWNLOADING HISTORICAL DATA FROM YAHOO FINANCE + ADJUSTMENT
+  data <- new.env()
+  getSymbols.extra(tickers, src = 'yahoo', from = '1980-01-01', env = data, auto.assign = T)
+  for(i in ls(data)) data[[i]] = adjustOHLC(data[[i]], use.Adjusted=T)
+  bt.prep(data, align='remove.na')
+
+  ### DEFINING REFERENCES
+  prices = data$prices
+  n = ncol(prices)
+  nperiods = nrow(prices)
+  year.ends = endpoints(prices, 'years')
+  month.ends = endpoints(prices, 'months')
+  models = list()
+
+  ### PLOTING NORMALIZED DATA
+  prices.norm = prices/matrix(first(prices), nr = nperiods, nc=n, byrow=T)
+  plota.matplot(prices.norm, log = 'y')
+
+  ```
+
+</div>
+<br/>
+
+![p1](./p1.png)
+
+<div style="background-color: aliceblue; padding: 15px; border: 1px solid silver; border-radius: 5px;">  
+
+  ```R
+  ### BACKTESTING STOCK
+  data$weight[] = NA
+  data$weight$STOCK = 1
+  models$STOCK = bt.run.share(data, clean.signal=F, trade.summary=T, silent=F)
+  plotbt.custom.report.part1(models$STOCK)
+  ```
+
+</div>
+<br/>
+
+<div style="background-color: aliceblue; padding: 15px; border: 1px solid silver; border-radius: 5px;">  
+
+  ```R
+  ### BACKTESTING PERMANENT PORTFOLIO (YEARLY REBALANCE)
+  target.allocation = prices
+  target.allocation[] = rep.row(rep(1/n,n), nperiods)
+  data$weight[] = NA
+  data$weight[year.ends,] = target.allocation[year.ends,]
+  models$PPy = bt.run.share(data, clean.signal=F, trade.summary=T, silent=F)
+  plotbt.custom.report.part1(models$PPy)
+  plotbt.monthly.table(models$PPy$equity)
+  plot.table(list2matrix(bt.detail.summary(models$PPy)))
+  plotbt.transition.map(models$PPy$weight)
+  ```
+
+</div>
+<br/>
+
+
+<div style="background-color: aliceblue; padding: 15px; border: 1px solid silver; border-radius: 5px;">
+
+  ```R
+  #### COMPARE STRATEGIES
+  plotbt(models, plotX = T, log = 'y', LeftMargin = 1, main = NULL)
+  plotbt.strategy.sidebyside(models)
+  ```
+
+</div>
+
