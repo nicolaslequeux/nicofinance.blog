@@ -33,7 +33,7 @@ export default ({ data, pageContext }) => {
         image={post.frontmatter.cover.publicURL}
       </SEO>
 
-      <Container style={{ maxWidth: "700px", margin: "auto" }}>
+      <Container style={{ maxWidth: "800px", margin: "auto" }}>
         <div className="py-4 text-center">
           <h2>{post.frontmatter.title}</h2>
           <p>{post.frontmatter.date}</p>
@@ -147,7 +147,7 @@ export const queryPost = graphql`
         cover {
           publicURL
           childImageSharp {
-            fluid(maxWidth: 200, fit: COVER) {
+            fluid(maxWidth: 800, fit: COVER) {
               ...GatsbyImageSharpFluid
             }
           }
