@@ -64,7 +64,7 @@ La dernière baisse violente du marché des actions a occasionné un drawdown de
 
 Enfin, pour terminer, vous avez ci-après une simulation que j'ai réalisé sur le PP avec des données de marchés mensuelles. Le drawdown mensuel (MaxDD) minimise le drawdown réel car les données journalières ne sont pas prises en compte.
 
-Malgrès son caractère approximatif, cette simulation de long terme permet de valider la résilience de l'allocation PP dans les différents environements économiques qui ce sont succédés depuis 1950 (croissance, récession, inflation, déflation).
+Malgré son caractère approximatif, cette simulation de long terme permet de valider la résilience de l'allocation PP dans les différents environnements économiques qui ce sont succédés depuis 1950 (croissance, récession, inflation, déflation).
 
 ![ppM-table-monthly.png](./ppM-table-monthly.png)
 

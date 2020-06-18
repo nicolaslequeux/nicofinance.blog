@@ -6,6 +6,7 @@ published: true
 ---
 
 ![cover](./cover.jpg)
+<br>
 
 Il arrive fréquement lors de mes simulations que je doive convertir des données présentées sous forme de table en une seule colonne, plus facilement manipulable.
 
