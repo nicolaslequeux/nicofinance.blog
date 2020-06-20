@@ -62,19 +62,20 @@ export default ({ data, pageContext }) => {
                 rel="prev"
                 style={{textDecoration: ""}}
                 className="text-center font-italic font-weight-light">
-                ← {previous.frontmatter.title}
+                {/* ← {previous.frontmatter.title} */}
+                ← Post précédent
               </Link>
             )}
           </li>
-          {/* <li>
+          <li>
             <Link
               to="/blog"
               rel="blog"
               style={{textDecoration: ""}}
               className="text-center font-italic">
-              Retour à la liste
+              Liste des Posts
             </Link>
-          </li> */}
+          </li>
           <li>
             {next && (
               <Link
@@ -82,7 +83,8 @@ export default ({ data, pageContext }) => {
                 rel="next"
                 style={{textDecoration: ""}}
                 className="text-center font-italic font-weight-light">
-                {next.frontmatter.title} →
+                {/* {next.frontmatter.title} → */}
+                Post suivant →
               </Link>
             )}
           </li>
