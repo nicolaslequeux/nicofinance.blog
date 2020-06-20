@@ -32,6 +32,10 @@ export default ({ data }) => (
       <br/>Nicolas
       </p>
 
+      <hr></hr>
+
+      <p>Si vous souhaitez me contacter, vous pouvez utiliser <a href="https://nlxtech.com/" target="_blank" rel="noopener noreferrer">mon site professionnel</a>.</p>
+
       {/* <br></br>
 
       <p className="text-center font-italic font-weight-bold">Avertissement</p>
