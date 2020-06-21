@@ -246,7 +246,7 @@ On peut quand même tirer quelques conclusions de ces simulations:
 
 D’un point de vue pratique, je pense qu’il est préférable de maintenir un PP classique, c’est-à-dire à rééquilibrage annuel (PP.YEAR) et ne pas chercher à le modifier. Rien ne vous empêche de construire en parallèle d’autres portefeuilles, alloués à des stratégies plus dynamiques, afin d’améliorer la diversification de votre patrimoine financier.
 
-**Utilisez la stratégie du Portefeuille Permanent de Harry Browne pour ce dont il a été construit : apporter une solution d’investissement simple et efficace, pour préserver la valeur d’une épargne et s’assurer que cette épargne pourra survivre aux différentes crises économiques. Jusqu’à présent, elle a su parfaitement remplir cet objectif.**
+**Utilisez la stratégie du Portefeuille Permanent de Harry Browne pour ce dont elle a été construite : apporter une solution d’investissement simple et efficace, pour préserver la valeur d’une épargne et s’assurer que cette épargne pourra survivre aux différentes crises économiques. Jusqu’à présent, elle a parfaitement su remplir cet objectif.**
 
 <br></br>
 
@@ -282,12 +282,10 @@ Au final l'allocation du PP.YEAR apparait comme un havre de paix "relative" dans
 ![2020-06-18-dd-PP.YEAR](./img/pp.year/2020-06-18-dd-PP.YEAR.png)<br/>
 
 <hr>
-
-_Publié le 17 juin 2020 © Nicolas Lequeux_
-
+<p class="text-center font-weight-lighter font-italic">Publié le 17 juin 2020 © Nicolas Lequeux</p>
 <hr>
 
-<br></br>
+</br>
 
 <!-- LIENS -->
 
