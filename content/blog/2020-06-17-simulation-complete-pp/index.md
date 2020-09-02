@@ -12,7 +12,7 @@ published: true
 
 L’objectif du Portefeuille Permanent (PP) est d’apporter une solution simple et efficace pour préserver la valeur d’une épargne accumulée et s’assurer que cette épargne pourra traverser les différentes crises économiques comme l’inflation, la récession, la déflation, le crash, voir la confiscation (on peut tout vous prendre, sauf votre or détenu physiquement). La stratégie ne recherche pas la performance absolue, mais simplement la préservation d’une épargne et de son pouvoir d’achat, en investissant de manière prudente et raisonnable.
 
-Pour y parvenir, la stratégie du PP repose sur un investissement dans les 4 classes d'actifs les plus pures qui existent en finance: les actions, les obligations à long terme, l'or et le cash. L'investissement doit être réalisé à parts égales sur ces 4 classes d’actifs et les poches rééquilibrée de temps à autre.
+Pour y parvenir, la stratégie du PP repose sur un investissement dans les 4 classes d'actifs les plus pures qui existent en finance: les actions, les obligations à long terme, l'or et le cash. L'investissement doit être réalisé à parts égales sur ces 4 classes d’actifs et les poches rééquilibrées de temps à autre.
 
 Un PP réalisé sur le marché américain depuis les années 1970 a généré un rendement annualisé moyen de 8% par an avec la plus mauvaise année à -5%. En déduisant l’inflation, le rendement annuel moyen net est autour de 5% par an depuis plus de 50 ans!
 
@@ -59,7 +59,7 @@ Voyons l’évolution historique des différents actifs qui composent le PP :<b
 
 ![2020-06-17-graph-assets](./img/pp.assets/2020-06-17-graph-assets.png)<br/>
 
-Et les leurs données statistiques correspondantes :<br/>
+Et leurs données statistiques correspondantes :<br/>
 
 ![2020-06-17-stats-assets](./img/pp.assets/2020-06-17-stats-assets.png)<br/>
 
@@ -90,7 +90,7 @@ Les différentes poches de l'allocation PP.FIXED n'étant jamais rééquilibrée
 
 En ce qui concerne les 3 autres classes d’actifs, bien que lentes, les fluctuations peuvent être extrêmement importantes. Parti de 25% au départ de l’allocation globale du PP en 1991, l’or est réduit à moins de 10% au plus fort de la bulle internet des années 2000, alors que les actions représenteront près de 50% de la valeur totale du portefeuille. Après la bulle, la situation s’inverse et l’or progresse fortement, pour à son tour représenter près de 50% de la valeur totale du portefeuille en 2010 et les actions revenir à 20%
 
-Ce graphique permet de comprendre pourquoi il est nécessaire de rééquilibrer les poches dur PP de temps à autre. La stratégie du PP profite de la plus-value des actifs qui ont le plus progressé pour se placer à bon compte sur les actifs qui ont baissé, ou si vous préférez sont devenus meilleur marché.
+Ce graphique permet de comprendre pourquoi il est nécessaire de rééquilibrer les poches du PP de temps à autre. La stratégie du PP profite de la plus-value des actifs qui ont le plus progressé pour se placer à bon compte sur les actifs qui ont baissé, ou si vous préférez sont devenus meilleur marché.
 
 <p class="text-center font-weight-bold m-0 pt-3">PP.FIXED</p>
 <p class="text-center font-weight-lighter font-italic">Table mensuelle</p>
@@ -242,7 +242,7 @@ On peut quand même tirer quelques conclusions de ces simulations:
 
 - Le PP.TIMING nous montre que nous pouvons alléger l’allocation d’un actif, si ce dernier est dans une tendance baissière bien établie. J’ai utilisé une moyenne mobile à 10 mois, mais tout indicateur de momentum supérieur à 6 mois fonctionnera parfaitement. Il s’agit simplement détecter les tendances économiques de long terme.<br><br/>
 
-**Mais attention, ce genre d’arbitrage sur le PP, c’est un peu ouvrir la boite de Pandore.** Il faut comprendre que le portefeuille absorbe bien la plupart des chocs financiers, car il est investi en permanence sur les 2 seuls actifs financiers sur lesquels les investisseurs se réfugient lors d’un choc économique, à savoir l’or ou les obligations à long terme du Trésor US. Malheureusement, il est impossible de prévoir à l’avance sur lequel de ces 2 actifs les investisseurs choisiront de se réfugier. Il est donc préférable d’avoir une allocation minimum incompressible et permanente sur chacun de ces 2 supports. Même si dans le cas de l’or, la sous-performance peut facilement durer une décennie. Ainsi quand l’or est en tendance baissière, vous pourriez n’y allouer que 12,5% au lieu des 25% prévu par le PP.
+**Mais attention, ce genre d’arbitrage sur le PP, c’est un peu ouvrir la boite de Pandore.** Il faut comprendre que le portefeuille absorbe bien la plupart des chocs financiers, car il est investi en permanence sur les 2 seuls actifs financiers sur lesquels les investisseurs se réfugient lors d’un choc économique, à savoir l’or ou les obligations à long terme du Trésor US. Malheureusement, il est impossible de prévoir à l’avance sur lequel de ces 2 actifs les investisseurs choisiront de se réfugier. Il est donc préférable d’avoir une allocation minimum incompressible et permanente sur chacun de ces 2 supports. Même si dans le cas de l’or, la sous-performance peut facilement durer une décennie. Ainsi, quand l’or est en tendance baissière, vous pourriez n’y allouer que 12,5% au lieu des 25% prévu par le PP.
 
 D’un point de vue pratique, je pense qu’il est préférable de maintenir un PP classique, c’est-à-dire à rééquilibrage annuel (PP.YEAR) et ne pas chercher à le modifier. Rien ne vous empêche de construire en parallèle d’autres portefeuilles, alloués à des stratégies plus dynamiques, afin d’améliorer la diversification de votre patrimoine financier.
 
@@ -259,7 +259,7 @@ D’un point de vue pratique, je pense qu’il est préférable de maintenir un 
 
 ![2020-06-17-graph-summary](./img/pp.summary/2020-06-17-graph-summary.png)<br/>
 
-Au final l'allocation du PP.YEAR apparait comme un havre de paix "relative" dans une mer d'actifs très agités.<br><br/>
+Au final l'allocation du PP.YEAR apparaît comme un havre de paix "relative" dans une mer d'actifs très agités.<br><br/>
 
 <p class="text-center font-weight-bold m-0 pt-3">COMPARATIF DES ACTIFS ET DU PP.YEAR</p>
 <p class="text-center font-weight-lighter font-italic">Statistiques</p>
@@ -272,7 +272,7 @@ Au final l'allocation du PP.YEAR apparait comme un havre de paix "relative" dans
 ![2020-06-18-dd-stock-pp](./img/pp.summary/2020-06-18-dd-stock-pp.png)
 
 <p class="text-center font-weight-bold m-0 pt-3">TOP 10 DRAWDOWNS HISTORIQUES</p>
-<p class="text-center font-weight-lighter font-italic">Marchés des actions US</p>
+<p class="text-center font-weight-lighter font-italic">Marché des actions US</p>
 
 ![2020-06-18-dd-STOCK](./img/pp.assets/2020-06-18-dd-STOCK.png)
 

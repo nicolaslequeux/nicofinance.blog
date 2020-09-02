@@ -74,6 +74,8 @@ const Liens = () => (
         <Card.Body>
           <Card.Text>
 
+            <Lien href="http://impotsurlerevenu.org/impots/i1-6.php" target="_blank" rel="noopener noreferrer">Imôt sur le Revenu en France</Lien>
+
             <Lien href="https://dits.deloitte.com/#TaxGuides" target="_blank" rel="noopener noreferrer">Deloitte Tax Guides</Lien>
 
             <Lien href="http://taxsummaries.pwc.com/ID/tax-summaries-home" target="_blank" rel="noopener noreferrer">pwc Worldwide Tax Summaries</Lien>

@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
-import { Form, Col }from "react-bootstrap"
+//import { Form, Col }from "react-bootstrap"
 //import Img from "gatsby-image"
 
 import Card from "../components/card"
