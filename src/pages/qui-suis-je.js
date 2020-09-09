@@ -36,6 +36,10 @@ export default ({ data }) => (
 
       <p>Si vous souhaitez me contacter, vous pouvez utiliser <a href="https://nlxtech.com/" target="_blank" rel="noopener noreferrer">mon site professionnel</a>.</p>
 
+      <p>Ce site fait suite à un blog initialement démarré sur Wordpress : <a href="https://nlxportfolio.wordpress.com" target="_blank" rel="noopener noreferrer">nlxportfolio</a>.</p>
+
+    
+
       {/* <br></br>
 
       <p className="text-center font-italic font-weight-bold">Avertissement</p>
