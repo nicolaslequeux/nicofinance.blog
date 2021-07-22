@@ -32,7 +32,7 @@
     "react-helmet": "^5.2.0",
     "react-icons": "^3.10.0",
     "styled-components": "^5.1.0",
-    "xlsx": "^0.16.1"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
